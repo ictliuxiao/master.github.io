@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[刘箫－在线文档库]]></title>
+  <link href="https://www.ictliuxiao.com/atom.xml" rel="self"/>
+  <link href="https://www.ictliuxiao.com/"/>
+  <updated>2021-02-19T23:31:52+08:00</updated>
+  <id>https://www.ictliuxiao.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im">MWeb</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[刘箫-在线文档库]]></title>
+    <link href="https://www.ictliuxiao.com/16129295320374.html"/>
+    <updated>2021-02-10T11:58:52+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129295320374.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/15815018366999/ictliuxiaologo.png" alt="ictliuxiaologo"/></p>
+
+<p>个人简介：刘箫，擅长黑白盒测试、漏洞挖掘，XSS，SQL注入、多年渗透经验，精通网络攻防技术、攻防之间尽显渗透的艺术。擅长H3C、HUAWEI、Cisco等主流厂商网络设备部署与调试，精通生成树、OSPF、VRRP和VLAN等协议。熟练使用MPLS、IPv6、ISIS、VPN和组播等技术。熟练Linux的安装、Apache，RAID0、RAID5等磁盘阵列技术。掌握HTML、JavaScript、CSS、XML等编程技术。       </p>
+
+<p>　　本站资料供所有学员、IT技术爱好者学习使用，站内资料会不断更新和完善。如对文档内容有疑问，或者有好的建议，请联系本人。<br/>
+　　本站所有文档如无特殊声明，版权归刘箫个人所有，转载请获得本人授权，严禁用于商业用途。<br/>
+　　 <br/>
+　　本站访问网址：<br/>
+　　<a href="http://ictliuxiao.com">https://www.ictliuxiao.com</a>　<br/>
+　   　<br/>
+　　友情链接：<br/>
+　　LanONE Linux：<a href="https://www.lanzhiyong.cn">https://www.lanzhiyong.cn</a><br/>
+　　Guan FuQing&#39;s Blog：<a href="https://www.yiki.tech">https://www.yiki.tech</a><br/>
+　　Strong&#39;s Linux：<a href="http://www.hanzz.red">http://www.hanzz.red</a><br/>
+　　Hi,ZhouSir：<a href="http://www.zhouzxwd.cn%E3%80%80">http://www.zhouzxwd.cn　</a></p>
+
+<p>　　个人联系方式：<br/>
+　　E-Mail：<a href="mailto:huaweiliuxiao@163.com">huaweiliuxiao@163.com</a><br/>
+　　QQ：1561697165</p>
+
+<p>　　为了保证浏览效果，请使用 IE8 以上版本或 Chrome 浏览器<br/>
+<br></br></p>
+
+<hr/>
+
+<p>Copyright © 2019.Liu Xiao Personal Copyright All Rights Reserved. --Modified version 6.12.29</p>
+
+<!--版本X（整个网站更新）.X（新增一个文档）.X（新增或修改一篇文章）-->
+
+<pre class="line-numbers"><code class="language-text">
+/**
+ *               ii.                                         ;9ABH,
+ *              SA391,                                    .r9GG35&amp;G
+ *              &amp;#ii13Gh;                               i3X31i;:,rB1
+ *              iMs,:,i5895,                         .5G91:,:;:s1:8A
+ *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1
+ *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG
+ *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8
+ *               :SB9s:,............................,,,.,,,SASh53h,1G.
+ *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,
+ *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi
+ *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&amp;5.:X1
+ *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&amp;s
+ *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99
+ *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&amp;BGi..,,,,,,,,,,,,.,83
+ *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&amp;B###@@Mr...,,,,,,,,..,.;Xh
+ *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:
+ *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8
+ *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs
+ *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:
+ *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59
+ *  .Si      ,:.i8HBMMMMMB&amp;5,....                    .            .,,,,,.sMr
+ *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5
+ *  91  .    ;:.,1&amp;@@@@@@MXs.                            .          .,,:,:&amp;S
+ *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99
+ *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83
+ *   s&amp;: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&amp;1
+ *    SXr  .  ...;s3G99XA&amp;X88Shss11155hi.                             ,;:h&amp;,
+ *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA
+ *      ,8X5;   .     .......                                       ,;iihS8Gi
+ *         1831,                                                 .,;irrrrrs&amp;@
+ *           ;5A8r.                                            .:;iiiiirrss1H
+ *             :X@H3s.......                                .,:;iii;iiiiirsrh
+ *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1
+ *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h
+ *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h
+ *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111
+ *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111
+ *
+ *             .............................................
+ *                      服务上线             永无BUG
+ */
+</code></pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[《中华人民共和国网络安全法》]]></title>
+    <link href="https://www.ictliuxiao.com/16119961713489.html"/>
+    <updated>2021-01-30T16:42:51+08:00</updated>
+    <id>https://www.ictliuxiao.com/16119961713489.html</id>
+    <content type="html"><![CDATA[
+<p>《中华人民共和国网络安全法》<br/>
+(2016 年 11 月 7 日第十二届全国人民代表大会常务委员会第二十四次会议通过)</p>
+
+<p>目录（共七章，共七十九条）<br/>
+　　第一章总则<br/>
+　　第二章网络安全支持与促进<br/>
+　　第三章网络运行安全<br/>
+　　　　第一节一般规定<br/>
+　　　　第二节关键信息基础设施的运行安全<br/>
+　　第四章网络信息安全<br/>
+　　第五章监测预警与应急处置<br/>
+　　第六章法律责任<br/>
+　　第七章附则</p>
+
+<p>第一章总则<br/>
+第一条<br/>
+　　为了保障网络安全 , 维护网络空间主权和国家安全、社会公共利益，保护公民、法人和其他组织的合法权益 , 促进经济社会信息化健康发展,制定本法。<br/>
+　　<br/>
+第二条<br/>
+　　在中华人民共和国境内建设、运营、维护和使用网络,以及网络安全的监督管理,适用本法。<br/>
+　　<br/>
+第三条<br/>
+　　国家坚持网络安全与信息化发展并重,遵循积极利用、科学发展、依法管理、确保安全的方针,推进网络基础设施建设和互联互通,鼓励网络技术创新和应用,支持培养网络安全人才,建立健全网络安全保障体系,提高网络安全保护能力。<br/>
+　　<br/>
+第四条<br/>
+　　国家制定并不断完善网络安全战略,明确保障网络安全的基本要求和主要目标,提出重点领域的网络安全政策、工作任务和措施。<br/>
+　　<br/>
+第五条<br/>
+　　国家采取措施,监测、防御、处置来源于中华人民共和国境内外的网络安全风险和威胁,保护关键信息基础设施免受攻击、侵入、干扰和破坏,依法惩治网络违法犯罪活动,维护网络空间安全和秩序。<br/>
+　　<br/>
+第六条<br/>
+　　国家倡导诚实守信、健康文明的网络行为,推动传播社会主义核心价值观,采取措施提高全社会的网络安全意识和水平,形成全社会共同参与促进网络安全的良好环境。<br/>
+　　<br/>
+第七条<br/>
+　　国家积极开展网络空间治理、网络技术研发和标准制定、打击网络违法犯罪等方面的国际交流与合作,推动构建和平、安全、开放、合作的网络空间,建立多边、民主、透明的网络治理体系。<br/>
+　　<br/>
+第八条<br/>
+　　国家网信部门负责统筹协调网络安全工作和相关监督管理工作。国务院电信主管部门、公安部门和其他有关机关依照本法和有关法律、行政法规的规定,在各自职责范围内负责网络安全保护和监督管理工作。县级以上地方人民政府有关部门的网络安全保护和监督管理职责,按照国家有关规定确定。<br/>
+　　<br/>
+第九条<br/>
+　　网络运营者开展经营和服务活动,必须遵守法律、行政法规,尊重社会公德,遵守商业道德,诚实信用,履行网络安全保护义务,接受政府和社会的监督,承担社会责任。<br/>
+　　<br/>
+第十条<br/>
+　　建设、运营网络或者通过网络提供服务,应当依照法律、行政法规的规定和国家标准的强制性要求,采取技术措施和其他必要措施,保障网络安全、稳定运行,有效应对网络安全事件,防范网络违法犯罪活动,维护网络数据的完整性、保密性和可用性。<br/>
+　　<br/>
+第十一条<br/>
+　　网络相关行业组织按照章程,加强行业自律,制定网络安全行为规范,指导会员加强网络安全保护,提高网络安全保护水平,促进行业健康发展。<br/>
+　　<br/>
+第十二条<br/>
+　　国家保护公民、法人和其他组织依法使用网络的权利,促进网络接入普及,提升网络服务水平,为社会提供安全、便利的网络服务,保障网络信息依法有序自由流动。任何个人和组织使用网络应当遵守宪法法律,遵守公共秩序,尊重社会公德,不得危害网络安全,不得利用网络从事危害国家安全、荣誉和利益,煽动颠覆国家政权、推翻社会主义制度,煽动分裂国家、破坏国家统一,宣扬恐怖主义、极端主义,宣扬民族仇恨、民族歧视,传播暴力、淫秽色情信息,编造、传播虚假信息扰乱经济秩序和社会秩序,以及侵害他人名誉、隐私、知识产权和其他合法权益等活动。<br/>
+　　<br/>
+第十三条<br/>
+　　国家支持研究开发有利于未成年人健康成长的网络产品和服务,依法惩治利用网络从事危害未成年人身心健康的活动,为未成年人提供安全、健康的网络环境。<br/>
+　　<br/>
+第十四条<br/>
+　　条任何个人和组织有权对危害网络安全的行为向网信、电信、公安等部门举报。收到举报的部门应当及时依法作出处理;不属于本部门职责的,应当及时移送有权处理的部门。有关部门应当对举报人的相关信息予以保密,保护举报人的合法权益。</p>
+
+<p>第二章网络安全支持与促进<br/>
+第十五条<br/>
+　　国家建立和完善网络安全标准体系。国务院标准化行政主管部门和国务院其他有关部门根据各自的职责,组织制定并适时修订有关网络安全管理以及网络产品、服务和运行安全的国家标准、行业标准。国家支持企业、研究机构、高等学校、网络相关行业组织参与网络安全国家标准、行业标准的制定。<br/>
+　　<br/>
+第十六条<br/>
+　　国务院和省、自治区、直辖市人民政府应当统筹规划,加大投入,扶持重点网络安全技术产业和项目,支持网络安全技术的研究开发和应用,推广安全可信的网络产品和服务,保护网络技术知识产权,支持企业、研究机构和高等学校等参与国家网络安全技术创新项目。<br/>
+　　<br/>
+第十七条<br/>
+　　国家推进网络安全社会化服务体系建设,鼓励有关企业、机构开展网络安全认证、检测和风险评估等安全服务。</p>
+
+<p>第十八条<br/>
+　　国家鼓励开发网络数据安全保护和利用技术,促进公共数据资源开放,推动技术创新和经济社会发展。国家支持创新网络安全管理方式,运用网络新技术,提升网络安全保护水平。<br/>
+　　<br/>
+第十九条<br/>
+　　各级人民政府及其有关部门应当组织开展经常性的网络安全宣传教育,并指导、督促有关单位做好网络安全宣传教育工作。大众传播媒介应当有针对性地面向社会进行网络安全宣传教育。<br/>
+　　<br/>
+第二十条<br/>
+　　国家支持企业和高等学校、职业学校等教育培训机构开展网络安全相关教育与培训 , 采取多种方式培养网络安全人才,促进网络安全人才交流。</p>
+
+<p>第三章网络运行安全<br/>
+第一节一般规定<br/>
+第二十一条<br/>
+　　国家实行网络安全等级保护制度。网络运营者应当按照网络安全等级保护制度的要求, 履行下列安全保护义务,保障网络免受干扰、破坏或者未经授权的访问,防止网络数据泄露或者被窃取、篡改：<br/>
+　　（一）制定内部安全管理制度和操作规程,确定网络安全负责人,落实网络安全保护责任;<br/>
+　　（二）采取防范计算机病毒和网络攻击、网络侵入等危害网络安全行为的技术措施;<br/>
+　　（三）采取监测、记录网络运行状态、网络安全事件的技术措施,并按照规定留存相关的网络日志不少于六个月;<br/>
+　　（四）采取数据分类、重要数据备份和加密等措施;<br/>
+　　（五）法律、行政法规规定的其他义务。<br/>
+　　<br/>
+第二十二条<br/>
+　　网络产品、服务应当符合相关国家标准的强制性要求。网络产品、服务的提供者不得设置恶意程序;发现其网络产品、服务存在安全缺陷、漏洞等风险时, 应当立即采取补救措施,按照规定及时告知用户并向有关主管部门报告。网络产品、服务的提供者应当为其产品、服务持续提供安全维护;在规定或者当事人约定的期限内,不得终止提供安全维护。网络产品、服务具有收集用户信息功能的,其提供者应当向用户明示并取得同意;涉及用户个人信息的,还应当遵守本法和有关法律、行政法规关于个人信息保护的规定。<br/>
+　　<br/>
+第二十三条<br/>
+　　网络关键设备和网络安全专用产品应当按照相关国家标准的强制性要求,由具备资格的机构安全认证合格或者安全检测符合要求后,方可销售或者提供。国家网信部门会同国务院有关部门制定、公布网络关键设备和网络安全专用产品目录,并推动安全认证和安全检测结果互认 , 避免重复认证、检测。<br/>
+　　<br/>
+第二十四条<br/>
+　　网络运营者为用户办理网络接入、域名注册服务,办理固定电话、移动电话等入网手续,或者为用户提供信息发布、即时通讯等服务,在与用户签订协议或者确认提供服务时,应当要求用户提供真实身份信息。用户不提供真实身份信息的,网络运营者不得为其提供相关服务。国家实施网络可信身份战略,支持研究开发安全、方便的电子身份认证技术,推动不同电子身份认证之间的互认。<br/>
+　　<br/>
+第二十五条<br/>
+　　网络运营者应当制定网络安全事件应急预案,及时处置系统漏洞、计算机病毒、网络攻击、网络侵入等安全风险;在发生危害网络安全的事件时,立即启动应急预案,采取相应的补救措施,并按照规定向有关主管部门报告。<br/>
+　　<br/>
+第二十六条<br/>
+　　开展网络安全认证、检测、风险评估等活动,向社会发布系统漏洞、计算机病毒、网络攻击、网络侵入等网络安全信息,应当遵守国家有关规定。<br/>
+　　<br/>
+第二十七条<br/>
+　　任何个人和组织不得从事非法侵入他人网络、干扰他人网络正常功能、窃取网络数据等危害网络安全的活动;不得提供专门用于从事侵入网络、干扰网络正常功能及防护措施、窃取网络数据等危害网络安全活动的程序、工具;明知他人从事危害网络安全的活动的,不得为其提供技术支持、广告推广、支付结算等帮助。<br/>
+　　<br/>
+第二十八条<br/>
+　　网络运营者应当为公安机关、国家安全机关依法维护国家安全和侦查犯罪的活动提供技术支持和协助。<br/>
+　　<br/>
+第二十九条<br/>
+　　国家支持网络运营者之间在网络安全信息收集、分析、通报和应急处置等方面进行合作,提高网络运营者的安全保障能力。有关行业组织建立健全本行业的网络安全保护规范和协作机制 , 加强对网络安全风险的分析评估,定期向会员进行风险警示,支持、协助会员应对网络安全风险。<br/>
+　　<br/>
+第三十条<br/>
+　　网信部门和有关部门在履行网络安全保护职责中获取的信息,只能用于维护网络安全的需要,不得用于其他用途。</p>
+
+<p>第二节关键信息基础设施的运行安全<br/>
+第三十一条<br/>
+　　国家对公共通信和信息服务、能源、交通、水利、金融、公共服务、电子政务等重要行业和领域,以及其他一旦遭到破坏、丧失功能或者数据泄露 ,可能严重危害国家安全、国计民生、公共利益的关键信息基础设施,在网络安全等级保护制度的基础上,实行重点保护。关键信息基础设施的具体范围和安全保护办法由国务院制定。国家鼓励关键信息基础设施以外的网络运营者自愿参与关键信息基础设施保护体系。<br/>
+　　<br/>
+第三十二条<br/>
+　　按照国务院规定的职责分工,负责关键信息基础设施安全保护工作的部门分别编制并组织实施本行业、本领域的关键信息基础设施安全规划,指导和监督关键信息基础设施运行安全保护工作。<br/>
+　　<br/>
+第三十三条<br/>
+　　建设关键信息基础设施应当确保其具有支持业务稳定、持续运行的性能,并保证安全技术措施同步规划、同步建设、同步使用。<br/>
+第三十四条<br/>
+　　除本法第二十一条的规定外,关键信息基础设施的运营者还应当履行下列安全保护义务:<br/>
+　　（一）设置专门安全管理机构和安全管理负责人,并对该负责人和关键岗位的人员进行安全背景审查;<br/>
+　　（二）定期对从业人员进行网络安全教育、技术培训和技能考核;<br/>
+　　（三）对重要系统和数据库进行容灾备份;<br/>
+　　（四）制定网络安全事件应急预案,并定期进行演练;<br/>
+　　（五）法律、行政法规规定的其他义务。<br/>
+　　<br/>
+第三十五条<br/>
+　　关键信息基础设施的运营者采购网络产品和服务,可能影响国家安全的,应当通过国家网信部门会同国务院有关部门组织的国家安全审查。<br/>
+　　<br/>
+第三十六条<br/>
+　　关键信息基础设施的运营者采购网络产品和服务,应当按照规定与提供者签订安全保密协议,明确安全和保密义务与责任。</p>
+
+<p>第三十七条<br/>
+　　关键信息基础设施的运营者在中华人民共和国境内运营中收集和产生的个人信息和重要数据应当在境内存储。因业务需要,确需向境外提供的,应当按照国家网信部门会同国务院有关部门制定的办法进行安全评估;法律、行政法规另有规定的,依照其规定。<br/>
+　　<br/>
+第三十八条<br/>
+　　关键信息基础设施的运营者应当自行或者委托网络安全服务机构对其网络的安全性和可能存在的风险每年至少进行一次检测评估,并将检测评估情况和改进措施报送相关负责关键信息基础设施安全保护工作的部门。<br/>
+　　<br/>
+第三十九条<br/>
+　　国家网信部门应当统筹协调有关部门对关键信息基础设施的安全保护采取下列措施:<br/>
+　　（一）对关键信息基础设施的安全风险进行抽查检测,提出改进措施,必要时可以委托网络安全服务机构对网络存在的安全风险进行检测评估;<br/>
+　　（二）定期组织关键信息基础设施的运营者进行网络安全应急演练,提高应对网络安全事件的水平和协同配合能力;<br/>
+　　（三）促进有关部门、关键信息基础设施的运营者以及有关研究机构、网络安全服务机构等之间的网络安全信息共享;<br/>
+　　（四）对网络安全事件的应急处置与网络功能的恢复等,提供技术支持和协助。</p>
+
+<p>第四章网络信息安全<br/>
+第四十条<br/>
+　　网络运营者应当对其收集的用户信息严格保密,并建立健全用户信息保护制度。<br/>
+　　<br/>
+第四十一条<br/>
+　　网络运营者收集、使用个人信息,应当遵循合法、正当、必要的原则,公开收集、使用规则,明示收集、使用信息的目的、方式和范围,并经被收集者同意。网络运营者不得收集与其提供的服务无关的个人信息,不得违反法律、行政法规的规定和双方的约定收集、使用个人信息,并应当依照法律、行政法规的规定和与用户的约定,处理其保存的个人信息。<br/>
+　　<br/>
+第四十二条<br/>
+　　网络运营者不得泄露、篡改、毁损其收集的个人信息;未经被收集者同意,不得向他人提供个人信息。但是,经过处理无法识别特定个人且不能复原的除外。网络运营者应当采取技术措施和其他必要措施,确保其收集的个人信息安全,防止信息泄露、毁损、丢失。在发生或者可能发生个人信息泄露、毁损、丢失的情况时, 应当立即采取补救措施,按照规定及时告知用户并向有关主管部门报告。<br/>
+　　<br/>
+第四十三条<br/>
+　　个人发现网络运营者违反法律、行政法规的规定或者双方的约定收集、使用其个人信息的,有权要求网络运营者删除其个人信息;发现网络运营者收集、存储的其个人信息有错误的,有权要求网络运营者予以更正。网络运营者应当采取措施予以删除或者更正。<br/>
+　　<br/>
+第四十四条<br/>
+　　任何个人和组织不得窃取或者以其他非法方式获取个人信息,不得非法出售或者非法向他人提供个人信息。<br/>
+　　<br/>
+第四十五条<br/>
+　　依法负有网络安全监督管理职责的部门及其工作人员,必须对在履行职责中知悉的个人信息、隐私和商业秘密严格保密,不得泄露、出售或者非法向他人提供。<br/>
+　　<br/>
+第四十六条<br/>
+　　任何个人和组织应当对其使用网络的行为负责,不得设立用于实施诈骗,传授犯罪方法,制作或者销售违禁物品、管制物品等违法犯罪活动的网站、通讯群组 , 不得利用网络发布涉及实施诈骗,制作或者销售违禁物品、管制物品以及其他违法犯罪活动的信息。<br/>
+　　<br/>
+第四十七条<br/>
+　　网络运营者应当加强对其用户发布的信息的管理,发现法律、行政法规禁止发布或者传输的信息的,应当立即停止传输该信息,采取消除等处置措施,防止信息扩散,保存有关记录,并向有关主管部门报告。<br/>
+　　<br/>
+第四十八条<br/>
+　　任何个人和组织发送的电子信息、提供的应用软件,不得设置恶意程序,不得含有法律、行政法规禁止发布或者传输的信息。电子信息发送服务提供者和应用软件下载服务提供者,应当履行安全管理义务,知道其用户有前款规定行为的,应当停止提供服务,采取消除等处置措施,保存有关记录,并向有关主管部门报告。<br/>
+　　<br/>
+第四十九条<br/>
+　　网络运营者应当建立网络信息安全投诉、举报制度,公布投诉、举报方式等信息,及时受理并处理有关网络信息安全的投诉和举报。网络运营者对网信部门和有关部门依法实施的监督检查 , 应当予以配合。<br/>
+　　<br/>
+第五十条<br/>
+　　国家网信部门和有关部门依法履行网络信息安全监督管理职责,发现法律、行政法规禁止发布或者传输的信息的,应当要求网络运营者停止传输,采取消除等处置措施,保存有关记录;对来源于中华人民共和国境外的上述信息,应当通知有关机构采取技术措施和其他必要措施阻断传播。</p>
+
+<p>第五章监测预警与应急处置<br/>
+第五十一条<br/>
+　　国家建立网络安全监测预警和信息通报制度。国家网信部门应当统筹协调有关部门加强网络安全信息收集、分析和通报工作,按照规定统一发布网络安全监测预警信息。<br/>
+　　<br/>
+第五十二条<br/>
+　　负责关键信息基础设施安全保护工作的部门,应当建立健全本行业、本领域的网络安全监测预警和信息通报制度,并按照规定报送网络安全监测预警信息。<br/>
+　　<br/>
+第五十三条<br/>
+　　国家网信部门协调有关部门建立健全网络安全风险评估和应急工作机制,制定网络安全事件应急预案,并定期组织演练。负责关键信息基础设施安全保护工作的部门应当制定本行业、本领域的网络安全事件应急预案,并定期组织演练。网络安全事件应急预案应当按照事件发生后的危害程度、影响范围等因素对网络安全事件进行分级 , 并规定相应的应急处置措施。<br/>
+　　<br/>
+第五十四条<br/>
+　　网络安全事件发生的风险增大时,省级以上人民政府有关部门应当按照规定的权限和程序,并根据网络安全风险的特点和可能造成的危害,采取下列措施:<br/>
+　　（一）要求有关部门、机构和人员及时收集、报告有关信息,加强对网络安全风险的监测;<br/>
+　　（二）组织有关部门、机构和专业人员,对网络安全风险信息进行分析评估,预测事件发生的可能性、影响范围和危害程度;<br/>
+　　（三）向社会发布网络安全风险预警,发布避免、减轻危害的措施。<br/>
+　　<br/>
+第五十五条<br/>
+　　发生网络安全事件,应当立即启动网络安全事件应急预案,对网络安全事件进行调查和评估,要求网络运营者采取技术措施和其他必要措施,消除安全隐患, 防止危害扩大,并及时向社会发布与公众有关的警示信息。<br/>
+　　<br/>
+第五十六条<br/>
+　　省级以上人民政府有关部门在履行网络安全监督管理职责中,发现网络存在较大安全风险或者发生安全事件的,可以按照规定的权限和程序对该网络的运营者的法定代表人或者主要负责人进行约谈。网络运营者应当按照要求采取措施,进行整改,消除隐患。<br/>
+　　<br/>
+第五十七条<br/>
+　　因网络安全事件,发生突发事件或者生产安全事故的,应当依照《中华人民共和国突发事件应对法》、《中华人民共和国安全生产法》等有关法律、行政法规的规定处置。<br/>
+　　<br/>
+第五十八条<br/>
+　　因维护国家安全和社会公共秩序,处置重大突发社会安全事件的需要,经国务院决定或者批准,可以在特定区域对网络通信采取限制等临时措施。</p>
+
+<p>第六章法律责任<br/>
+第五十九条<br/>
+　　网络运营者不履行本法第二十一条、第二十五条规定的网络安全保护义务的,由有关主管部门责令改正,给予警告;拒不改正或者导致危害网络安全等后果的,处一万元以上十万元以下罚款,对直接负责的主管人员处五千元以上五万元以下罚款。关键信息基础设施的运营者不履行本法第三十三条、第三十四条、第三十六条、第三十八条规定的网络安全保护义务的,由有关主管部门责令改正,给予警告;拒不改正或者导致危害网络安全等后果的,处十万元以上一百万元以下罚款,对直接负责的主管人员处一万元以上十万元以下罚款。<br/>
+　　<br/>
+第六十条<br/>
+　　违反本法第二十二条第一款、第二款和第四十八条第一款规定,有下列行为之一的,由有关主管部门责令改正,给予警告;拒不改正或者导致危害网络安全等后果的,处五万元以上五十万元以下罚款,对直接负责的主管人员处一万元以上十万元以下罚款:<br/>
+　　（一）设置恶意程序的;<br/>
+　　（二）对其产品、服务存在的安全缺陷、漏洞等风险未立即采取补救措施,或者未按照规定及时告知用户并向有关主管部门报告的;<br/>
+　　（三）擅自终止为其产品、服务提供安全维护的。<br/>
+　　<br/>
+第六十一条<br/>
+　　网络运营者违反本法第二十四条第一款规定,未要求用户提供真实身份信息,或者对不提供真实身份信息的用户提供相关服务的,由有关主管部门责令改正;拒不改正或者情节严重的,处五万元以上五十万元以下罚款,并可以由有关主管部门责令暂停相关业务、停业整顿、关闭网站、吊销相关业务许可证或者吊销营业执照，对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。<br/>
+　　<br/>
+第六十二条<br/>
+　　违反本法第二十六条规定，开展网络安全认证、检测、风险评估等活动，或者向社会发布系统漏洞、计算机病毒、网络攻击、网络侵入等网络安全信息的，由有关主管部门责令改正，给予警告；拒不改正或者情节严重的，处一万元以上十万元以下罚款，并可以由有关主管部门责令暂停相关业务、停业整顿、关闭网站、吊销相关业务许可证或者吊销营业执照，对直接负责的主管人员和其他直接责任人员处五千元以上五万元以下罚款。 <br/>
+　　<br/>
+第六十三条<br/>
+　　违反本法第二十七条规定，从事危害网络安全的活动，或者提供专门用于从事危害网络安全活动的程序、工具，或者为他人从事危害网络安全的活动提供技术支持、广告推广、支付结算等帮助，尚不构成犯罪的，由公安机关没收违法所得，处五日以下拘留，可以并处五万元以上五十万元以下罚款；情节较重的，处五日以上十五日以下拘留，可以并处十万元以上一百万元以下罚款。单位有前款行为的，由公安机关没收违法所得，处十万元以上一百万元以下罚款，并对直接负责的主管人员和其他直接责任人员依照前款规定处罚。违反本法第二十七条规定，受到治安管理处罚的人员，五年内不得从事网络安全管理和网络运营关键岗位的工作；受到刑事处罚的人员，终身不得从事网络 安全管理和网络运营关键岗位的工作。<br/>
+　　<br/>
+第六十四条<br/>
+　　网络运营者、网络产品或者服务的提供者违反本法第二十二条第三款、第四十一条至第四十三条规定，侵害个人信息依法得到保护的权利的，由有关主管部门责令改正，可以根据情节单处或者并处警告、没收违法所得、处违法所得一倍以上十倍以下罚款，没有违法所得的，处一百万元以下罚款，对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款；情节严重的，并可以责令暂停相关业务、停业整顿、关闭网站、吊销相关业务许可证或者吊销营业执照。违反本法第四十四条规定，窃取或者以其他非法方式获取、非法出售或者非法向他人提供个人信息，尚不构成犯罪的，由公安机关没收违法所得，并处违法所得一倍以上十倍以下罚款，没有违法所得的，处一百万元以下罚款。<br/>
+　　<br/>
+第六十五条<br/>
+　　关键信息基础设施的运营者违反本法第三十五条规定，使用未经安全审查或者安全审查未通过的网络产品或者服务的，由有关主管部门责令停止使用，处采购金额一倍以上十倍以下罚款；对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。第六十六条关键信息基础设施的运营者违反本法第三十七条规定，在境外存储网络数据，或者向境外提供网络数据的，由有关主管部门责令改正，给予警告，没收违法所得，处五万元以上五十万元以下罚款，并可以责令暂停相关业务、停业整顿、关闭网站、吊销相关业务许可证或者吊销营业执照；对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。 <br/>
+　　<br/>
+第六十七条<br/>
+　　违反本法第四十六条规定，设立用于实施违法犯罪活动的网站、通讯群组，或者利用网络发布涉及实施违法犯罪活动的信息，尚不构成犯罪的，由公安机关处五日以下拘留，可以并处一万元以上十万元以下罚款；情节较重的，处五日以上十五日以下拘留，可以并处五万元以上五十万元以下罚款。关闭用于实施违法犯罪活动的网站、通讯群组。单位有前款行为的，由公安机关处十万元以上五十万元以下罚款，并对直接负责的主管人员和其他直接责任人员依照前款规定处罚。 <br/>
+　　<br/>
+第六十八条<br/>
+　　网络运营者违反本法第四十七条规定，对法律、行政法规禁 止发布或者传输的信息未停止传输、采取消除等处置措施、保存有关记录的，由有关主管部门责令改正，给予警告，没收违法所得；拒不改正或者情节严重的，处十万元以上五十万元以下罚款，并可以责令暂停相关业务、停业整顿、关闭网站、吊销相关业务许可证或者吊销营业执照，对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。电子信息发送服务提供者、应用软件下载服务提供者，不履行本法第四十八条第二款规定的安全管理义务的，依照前款规定处罚。 <br/>
+　　<br/>
+第六十九条<br/>
+　　网络运营者违反本法规定，有下列行为之一的，由有关主管部门责令改正；拒不改正或者情节严重的，处五万元以上五十万元以下罚款，对 直接负责的主管人员和其他直接责任人员，处一万元以上十万元以下罚款：<br/>
+（一）不按照有关部门的要求对法律、行政法规禁止发布或者传输的信息，采取停止传输、消除等处置措施的；<br/>
+（二）拒绝、阻碍有关部门依法实施的监督检查的；<br/>
+（三）拒不向公安机关、国家安全机关提供技术支持和协助的。</p>
+
+<p>第七十条<br/>
+　　发布或者传输本法第十二条第二款和其他法律、行政法规禁止发布或者传输的信息的，依照有关法律、行政法规的规定处罚。<br/>
+　　<br/>
+第七十一条<br/>
+　　有本法规定的违法行为的，依照有关法律、行政法规的规定记入信用档案，并予以公示。<br/>
+　　<br/>
+第七十二条<br/>
+　　国家机关政务网络的运营者不履行本法规定的网络安全保护义务的，由其上级机关或者有关机关责令改正；对直接负责的主管人员和其他直接责任人员依法给予处分。</p>
+
+<p>第七十三条<br/>
+　　网信部门和有关部门违反本法第三十条规定， 将在履行网络安全保护职责中获取的信息用于其他用途的，对直接负责的主管人员和其他直接责任人员依法给予处分。网信部门和有关部门的工作人员玩忽职守、滥用职权、徇私舞弊，尚不构成犯罪的，依法给予处分。<br/>
+　　<br/>
+第七十四条<br/>
+　　违反本法规定，给他人造成损害的，依法承担民事责任。违反本法规定，构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。<br/>
+　　<br/>
+第七十五条<br/>
+　　境外的机构、组织、个人从事攻击、侵入、干扰、破坏等危 害中华人民共和国的关键信息基础设施的活动，造成严重后果的，依法追究法律责任；国务院公安部门和有关部门并可以决定对该机构、组织、个人采取冻结财 产或者其他必要的制裁措施。</p>
+
+<p>第七章 附 <br/>
+第七十六条 <br/>
+　　本法下列用语的含义：<br/>
+　　（一）网络， 是指由计算机或者其他信息终端及相关设备组成的按照一定的规则和程序对信息进行收集、存储、传输、交换、处理的系统。<br/>
+　　（二） 网络安全，是指通过采取必要措施，防范对网络的攻击、侵入、干扰、破坏和非法使用以及意外事故，使网络处于稳定可靠运行的状态，以及保障网络数据的完整性、保密性、可用性的能力。<br/>
+　　（三）网络运营者，是指网络的所有者、管理者和网络服务提供者。<br/>
+　　（四）网络数据，是指通过网络收集、存储、传输、处理和产生的各种电子数据。<br/>
+　　（五）个人信息，是指以电子或者其他方式记录的能够单独或者与其他信息结合识别自然人个人身份的各种信息，包括但不限于自然人的姓名、出生日期、身份证件号码、个人生物识别信息、住址、电话号码等。 <br/>
+　　<br/>
+第七十七条<br/>
+　　存储、处理涉及国家秘密信息的网络的运行安全保护，除应当遵守本法外，还应当遵守保密法律、行政法规的规定。 <br/>
+　　<br/>
+第七十八条 第七十九条 军事网络的安全保护，由中央军事委员会另行规定。 </p>
+
+<p>本法自 2017 年 6 月 1 日起施行。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1、HTML5简介]]></title>
+    <link href="https://www.ictliuxiao.com/16129276091343.html"/>
+    <updated>2021-02-10T11:26:49+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129276091343.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>HTML5是HTML最新的修订版本，2014年10月由万维网联盟（W3C）完成标准制定。HTML5的设计目的是为了在移动设备上支持多媒体。HTML5 简单易学。</p>
+</blockquote>
+
+<h2 id="toc_0">（1）HTML5 &lt;!DOCTYPE&gt;</h2>
+
+<p>&lt;!doctype&gt; 声明必须位于 HTML5 文档中的第一行,使用非常简单</p>
+
+<h3 id="toc_1">代码： <code>&lt;!DOCTYPE html&gt;</code></h3>
+
+<h2 id="toc_2">（2）最小的HTML5文档</h2>
+
+<p>下面是一个简单的HTML5文档：</p>
+
+<h3 id="toc_3">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端开发&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello HTML5！
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p><strong>注意：对于中文网页需要使用 <meta charset="utf-8"> 声明编码，否则会出现乱码。</strong></p>
+
+<h2 id="toc_4">（3）HTML编辑器</h2>
+
+<p>可以使用专业的 HTML 编辑器来编辑 HTML，为大家推荐几款常用的编辑器：<br/>
+VS Code：<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a><br/>
+Sublime Text：<a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a><br/>
+你可以从以上软件的官网中下载对应的软件，按步骤安装即可。<br/>
+使用 VS Code 工具来创建 HTML 文件。</p>
+
+<p><strong>VS Code</strong><br/>
+Visual Studio Code（简称 VS Code）是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，编辑器中内置了扩展程序管理的功能。</p>
+
+<h4 id="toc_5">步骤 1: 新建 HTML 文件</h4>
+
+<p>在 VS Code 安装完成后，选择&quot; 文件(F)-&gt;新建文件(N) &quot;，在新建的文件中输入以下代码：</p>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;我的第一个标题&lt;/h1&gt;
+&lt;p&gt;我的第一个段落。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4 id="toc_6">步骤 2: 另存为 HTML 文件</h4>
+
+<p>当保存 HTML 文件时，既可以使用 .htm 也可以使用 .html 扩展名。两者没有区别，完全根据喜好，建议统一用 .html。</p>
+
+<h4 id="toc_7">步骤 3: 在浏览器中运行这个 HTML 文件</h4>
+
+<p>然后鼠标右击编辑器上的文件名，选择在默认浏览器打开（也可以其他的浏览器）:<br/>
+运行显示结果类似如下:</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2、HTML5基础+元素]]></title>
+    <link href="https://www.ictliuxiao.com/16129276221260.html"/>
+    <updated>2021-02-10T11:27:02+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129276221260.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）HTML 标题</h2>
+
+<p>HTML 标题（Heading）是通过<code>&lt;h1&gt; - &lt;h6&gt;</code>标签来定义的。</p>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;这是一个标题&lt;/h1&gt;
+    &lt;h2&gt;这是一个标题&lt;/h2&gt;
+    &lt;h3&gt;这是一个标题&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）HTML 段落</h2>
+
+<p>HTML 段落是通过标签<code>&lt;p&gt;</code>来定义的。</p>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;这是一个段落。&lt;/p&gt;
+    &lt;p&gt;这是另外一个段落。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）HTML 链接</h2>
+
+<p>HTML 链接是通过标签<code>&lt;a&gt;</code>来定义的。<br/>
+提示:在<code>href</code>属性中指定链接的地址。</p>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;a href=&quot;https://www.ictliuxiao.com&quot;&gt;这是一个链接&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+<h2 id="toc_9">（4）HTML 图像</h2>
+
+<p>HTML 图像是通过标签<code>&lt;img&gt;</code>来定义的。<br/>
+注意： 图像的名称和尺寸是以属性的形式提供的。 </p>
+
+<h3 id="toc_10">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;img src=&quot;images/one.png&quot;  /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_11">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3、属性+标题]]></title>
+    <link href="https://www.ictliuxiao.com/16129276332130.html"/>
+    <updated>2021-02-10T11:27:13+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129276332130.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）HTML 属性</h2>
+
+<p>HTML 元素可以设置属性<br/>
+属性可以在元素中添加附加信息<br/>
+属性一般描述于开始标签<br/>
+属性总是以名称/值对的形式出现，比如：name=&quot;value&quot;。</p>
+
+<h2 id="toc_1">（2）属性实例</h2>
+
+<p>HTML 链接由<code>&lt;a&gt;</code>标签定义。链接的地址在<code>href</code>属性中指定：</p>
+
+<h3 id="toc_2">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;a href=&quot;https://www.ictliuxiao.com&quot;&gt;这是一个链接&lt;/a&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h2 id="toc_3">（3）HTML 提示：使用小写属性</h2>
+
+<p>属性和属性值对大小写不敏感。不过，万维网联盟在其 HTML 4 推荐标准中推荐小写的属性/属性值。新版本的 (X)HTML 要求使用小写属性。</p>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;a HREF=&quot;https://www.ictliuxiao.com&quot;&gt;这是一个链接&lt;/a&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（4）HTML 标题</h2>
+
+<p>在HTML文档中，标题很重要。标题（Heading）是通过<code>&lt;h1&gt; - &lt;h6&gt;</code>标签进行定义的。确保将HTML标题标签只用于标题。不要仅仅是为了生成粗体或大号的文本而使用标题。搜索引擎使用标题为您的网页的结构和内容编制索引。因为用户可以通过标题来快速浏览您的网页，所以用标题来呈现文档结构是很重要的。<br/>
+应该将h1用作主标题（最重要的），其后是 h2（次重要的），再其次是 h3，以此类推。<br/>
+<code>&lt;h1&gt;</code>定义最大的标题。 <code>&lt;h6&gt;</code>定义最小的标题。<br/>
+<strong>注释: 浏览器会自动地在标题的前后添加空行。<br/>
+演示参考2.1-HTML标题</strong></p>
+
+<h2 id="toc_7">（5）HTML 水平线</h2>
+
+<p><code>&lt;hr&gt;</code>标签在HTML页面中创建水平线。hr元素可用于分隔内容。</p>
+
+<h3 id="toc_8">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;p&gt;这是一个段落1。&lt;/p&gt;
+&lt;hr&gt;
+    &lt;p&gt;这是一个段落2。&lt;/p&gt;
+&lt;hr&gt;
+    &lt;p&gt;这是一个段落3。&lt;/p&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_9">效果：</h3>
+
+<h2 id="toc_10">（6）HTML 注释</h2>
+
+<p>可以将注释插入 HTML 代码中，这样可以提高其可读性，使代码更易被人理解。浏览器会忽略注释，也不会显示它们。<br/>
+注释: 开始括号之后（左边的括号）需要紧跟一个叹号，结束括号之前（右边的括号）不需要，合理地使用注释可以对未来的代码编辑工作产生帮助。<br/>
+注释写法如下:<br/>
+<code>&lt;!-- 这是一个注释 --&gt;</code></p>
+
+<h3 id="toc_11">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;     
+&lt;html&gt;          
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;  &lt;!-- 这个会显示在标题栏 --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;这是一个段落1。&lt;/p&gt;
+&lt;hr&gt;
+    &lt;p&gt;这是一个段落2。&lt;/p&gt;
+&lt;hr&gt;
+    &lt;p&gt;这是一个段落3。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_12">效果：</h3>
+
+<h2 id="toc_13">（7）HTML 提示 - 如何查看源代码</h2>
+
+<p>只需要单击右键，然后选择&quot;查看源文件&quot;（IE）或&quot;查看页面源代码（Firefox），其他浏览器的做法也是类似的。这么做会打开一个包含页面 HTML 代码的窗口。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[4、段落+链接]]></title>
+    <link href="https://www.ictliuxiao.com/16129276437841.html"/>
+    <updated>2021-02-10T11:27:23+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129276437841.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）HTML 段落</h2>
+
+<p>段落是通过<code>&lt;p&gt;</code>标签定义的。<br/>
+<strong>注意：浏览器会自动地在段落的前后添加空行。</strong>（<code>&lt;/p&gt;</code> 是块级元素）<br/>
+即使忘了使用结束标签，大多数浏览器也会正确地将 HTML 显示出来：<br/>
+上面的例子在大多数浏览器中都没问题，但不要依赖这种做法。忘记使用结束标签会产生意想不到的结果和错误。<br/>
+<strong>注释: 在未来的 HTML 版本中，不允许省略结束标签。</strong></p>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;     
+&lt;html&gt;          
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;  
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;这是一个段落         &lt;!-- 故意忘记结束标签 --&gt;
+    &lt;p&gt;这是另一个段落
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）HTML 折行</h2>
+
+<p>如果您希望在不产生一个新段落的情况下进行换行（新行），请使用<code>&lt;br&gt;</code>标签。<br/>
+<code>&lt;br /&gt;</code> 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，因此它没有结束标签。</p>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;     
+&lt;html&gt;          
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;  
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;这个&lt;br&gt;段落&lt;br&gt;演示了分行的效果&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）HTML 输出- 使用提醒</h2>
+
+<p>我们无法确定 HTML 被显示的确切效果。屏幕的大小，以及对窗口的调整都可能导致不同的结果。对于 HTML，无法通过在 HTML 代码中添加额外的空格或换行来改变输出的效果，当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。需要注意的是，HTML 代码中的所有连续的空行（换行）也被显示为一个空格。</p>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;     
+&lt;html&gt;          
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Web前端&lt;/title&gt;  
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;春晓&lt;/h1&gt;
+&lt;p&gt;
+    春眠不觉晓，
+      处处闻啼鸟。
+        夜来风雨声，
+          花落知多少。
+&lt;/p&gt;
+    &lt;p&gt;注意，浏览器忽略了源代码中的排版（省略了多余的空格和换行）。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[5、头部+CSS]]></title>
+    <link href="https://www.ictliuxiao.com/16129276700125.html"/>
+    <updated>2021-02-10T11:27:50+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129276700125.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）HTML<code>&lt;head&gt;</code></h2>
+
+<p>使用<code>&lt;title&gt;</code>标签定义HTML文档的标题,<code>&lt;title&gt;</code>在 HTML/XHTML文档中是必须的。<br/>
+定义了浏览器工具栏的标题<br/>
+当网页添加到收藏夹时，显示在收藏夹中的标题<br/>
+显示在搜索引擎结果页面的标题</p>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;     
+&lt;html&gt;          
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;这里可以改标题&lt;/title&gt;  
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello word！&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）HTML<code>&lt;base&gt;</code></h2>
+
+<p>使用<code>&lt;base&gt;</code>定义页面中所有链接默认的链接目标地址。</p>
+
+<h3 id="toc_4">代码:</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;Web前端&lt;/title&gt; 
+    &lt;base href=&quot;https://www.ictliuxiao.com&quot; target=&quot;_blank&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;&quot;&gt;默认链接&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）HTML<code>&lt;link&gt;</code></h2>
+
+<p><code>&lt;link&gt;</code>标签定义了文档与外部资源之间的关系。<br/>
+<code>&lt;link&gt;</code>标签通常用于链接到样式表。俗称外链样式表。 </p>
+
+<h3 id="toc_7">HTML代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;Web前端&lt;/title&gt; 
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;p&gt;CSS的测试段落1&lt;/p&gt;
+        &lt;a href=&quot;https://www.ictliuxiao.com&quot;&gt;CSS的测试段落2，链接&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_8">CSS代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">p{
+    font-size: 100px;           /*字体大小100px*/
+    font-family: &quot;微软雅黑&quot;;    /*字体为微软雅黑*/
+    color: red;              /*颜色为红色*/
+}
+
+a{
+    text-decoration: none;      /*链接去掉下划线*/
+}
+</code></pre>
+
+<h3 id="toc_9">效果：</h3>
+
+<h2 id="toc_10">（4）HTML<code>&lt;style&gt;</code></h2>
+
+<p><code>&lt;style&gt;</code>标签定义了HTML文档的样式文件引用地址。<br/>
+在<code>&lt;style&gt;</code>元素中你也可以直接添加样式来渲染 HTML 文档。俗称内联样式表。</p>
+
+<h3 id="toc_11">HTML代码</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;Web前端&lt;/title&gt; 
+    &lt;style type=&quot;text/css&quot;&gt;
+    p{
+    font-size: 100px;           /*字体大小100px*/
+    font-family: &quot;微软雅黑&quot;;    /*字体为微软雅黑*/
+    color:aqua;              /*颜色为青色*/
+    }
+
+    a{
+    text-decoration: none;      /*链接去掉下划线*/
+    color: red;               /*颜色为红色*/
+    }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;p&gt;CSS的测试段落1&lt;/p&gt;
+        &lt;a href=&quot;https://www.ictliuxiao.com&quot;&gt;CSS的测试段落2，链接&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_12">效果：</h3>
+
+<h2 id="toc_13">（5）HTML CSS</h2>
+
+<p>CSS 可以通过以下方式添加到HTML中，最好的方式是通过外部引用CSS文件。<br/>
+内联样式- 在HTML元素中使用&quot;style&quot; 属性<br/>
+内部样式表 -在HTML文档头部 <code>&lt;head&gt;</code>区域使用<code>&lt;style&gt;</code>元素 来包含CSS<br/>
+外部引用 - 使用外部 CSS 文件</p>
+
+<h3 id="toc_14">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;Web前端&lt;/title&gt; 
+&lt;/head&gt;
+&lt;body style=&quot;background-color:yellow;&quot;&gt;
+    &lt;h2 style=&quot;background-color:red;&quot;&gt;这是一个标题&lt;/h2&gt;
+    &lt;p style=&quot;background-color:green;&quot;&gt;这是一个段落。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_15">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1、JavaScript教程]]></title>
+    <link href="https://www.ictliuxiao.com/16129279735039.html"/>
+    <updated>2021-02-10T11:32:53+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129279735039.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>JavaScript 是 Web 的编程语言。所有现代的 HTML 页面都使用 JavaScript。</p>
+</blockquote>
+
+<h3 id="toc_0">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt; 
+&lt;meta charset=&quot;utf-8&quot;&gt; 
+&lt;title&gt;Web前端&lt;/title&gt; 
+&lt;script&gt;
+    function displayDate(){
+        document.getElementById(&quot;demo&quot;).innerHTML=Date();
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;我的第一个 JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;这是一个段落&lt;/p&gt;
+    &lt;button type=&quot;button&quot; onclick=&quot;displayDate()&quot;&gt;显示日期&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_1">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2、JavaScript在Crome中运行]]></title>
+    <link href="https://www.ictliuxiao.com/16129279881686.html"/>
+    <updated>2021-02-10T11:33:08+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129279881686.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>Chrome 是由 Google 开发的免费网页浏览器，对于前端开发来说（尤其是调试代码）非常方便。在 Chrome 浏览器中可以通过按下 F12 按钮或者右击页面，选择&quot;检查&quot;来开启开发者工具。</p>
+</blockquote>
+
+<p>可以在 Chrome 浏览器中创建一个脚本来执行，在开发者工具中点击Sources 面板，选择 Snippets 选项卡，在导航器中右击鼠标，然后选择 Creat new snippet 来新建一个脚本文件。</p>
+
+<p>点击 Creat new snippet 后，会自动创建一个文件，你只需在右侧窗口输入以下代码，然后按Ctrl+S保存更改即可。<br/>
+console.log(&quot;输出JavaScript&quot;)<br/>
+console.log(&quot;输出Goole Chrome&quot;)</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3、JavaScript输出]]></title>
+    <link href="https://www.ictliuxiao.com/16129280011890.html"/>
+    <updated>2021-02-10T11:33:21+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129280011890.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>JavaScript 可以通过不同的方式来输出数据：</p>
+</blockquote>
+
+<h2 id="toc_0">（1）使用 window.alert() 弹出警告框。</h2>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;我的第一个 JavaScript 程序&lt;/h1&gt;
+    &lt;script&gt;window.alert(&quot;警告，这是一个JavaScript程序&quot;);&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）使用 document.write() 方法将内容写到 HTML 文档中。</h2>
+
+<blockquote>
+<p>以将JavaScript直接写在HTML 文档中</p>
+
+<h2 id="toc_4">代码：</h2>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;第一个段落。&lt;/p&gt;
+    &lt;script&gt;document.write(Date());&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+</blockquote>
+
+<h2 id="toc_6">（3）使用 innerHTML 写入到 HTML 元素。</h2>
+
+<blockquote>
+<p>如需从 JavaScript 访问某个 HTML 元素，可以使用<code>document.getElementById(id)</code> 方法。</p>
+</blockquote>
+
+<hr/>
+
+<blockquote>
+<p><code>document.getElementById(&quot;demo&quot;)</code>是使用 id 属性来查找 HTML 元素的 JavaScript 代码 。</p>
+</blockquote>
+
+<hr/>
+
+<blockquote>
+<p><code>innerHTML = &quot;段落已修改。&quot;</code>是用于修改元素的 HTML 内容<code>(innerHTML)</code>的 JavaScript 代码。</p>
+</blockquote>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;第一个段落。&lt;/p&gt;
+    &lt;script&gt;
+        document.getElementById(&quot;demo&quot;).innerHTML=&quot;段落已修改。&quot;;
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+<h2 id="toc_9">（4）使用 console.log() 写入到浏览器的控制台</h2>
+
+<blockquote>
+<p>如果浏览器支持调试，你可以使用<code>console.log()</code>方法在浏览器中显示JavaScript 值。浏览器中使用 F12 来启用调试模式， 在调试窗口中点击 &quot;Console&quot; 菜单。</p>
+</blockquote>
+
+<h3 id="toc_10">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;第一个段落。&lt;/p&gt;
+    &lt;script&gt;
+    a = 5;
+    b = 6;
+    c = a + b;
+    console.log(c);
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_11">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[4、JavaScript语法]]></title>
+    <link href="https://www.ictliuxiao.com/16129280064831.html"/>
+    <updated>2021-02-10T11:33:26+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129280064831.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>JavaScript 是一个脚本语言。它是一个轻量级，但功能强大的编程语言。</p>
+</blockquote>
+
+<h2 id="toc_0">（1）JavaScript 字面量</h2>
+
+<blockquote>
+<p>在编程语言中，一般固定值称为字面量，如 3.14。<br/>
+数字（Number）字面量 可以是整数或者是小数，或者是科学计数(e)。<br/>
+字符串（String）字面量 可以使用单引号或双引号。<br/>
+表达式字面量 用于计算。</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">    &lt;body&gt;
+        &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+        &lt;p id=&quot;demo&quot;&gt;第一个段落。&lt;/p&gt;
+        &lt;p id=&quot;demo2&quot;&gt;第二个段落&lt;/p&gt;
+        &lt;p id=&quot;demo3&quot;&gt;第三个段落&lt;/p&gt;
+    &lt;script&gt;
+        document.getElementById(&quot;demo&quot;).innerHTML = 123e5;  /*数字字变量*/
+        document.getElementById(&quot;demo2&quot;).innerHTML = &#39;John Doe&#39;;  /*字符串字面量*/
+        document.getElementById(&quot;demo3&quot;).innerHTML = 6 * 10;     /**表达式字面量*/
+    &lt;/script&gt;
+    &lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）JavaScript 变量</h2>
+
+<blockquote>
+<p>在编程语言中，变量用于存储数据值。JavaScript 使用关键字 var 来定义变量， 使用等号来为变量赋值。</p>
+</blockquote>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">    &lt;body&gt;
+        &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+        &lt;p id=&quot;demo&quot;&gt;第一个段落。&lt;/p&gt;
+        &lt;p id=&quot;demo2&quot;&gt;第二个段落&lt;/p&gt;
+        &lt;p id=&quot;demo3&quot;&gt;第三个段落&lt;/p&gt;
+    &lt;script&gt;
+        var length;
+        length = 6;
+        document.getElementById(&quot;demo&quot;).innerHTML = length;
+    &lt;/script&gt;
+    &lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）JavaScript 操作符</h2>
+
+<blockquote>
+<p>JavaScript使用 算术运算符 来计算值。</p>
+</blockquote>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
+    &lt;script&gt;
+    document.getElementById(&quot;demo&quot;).innerHTML = (5 + 6) * 10;
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[5、JavaScript语句]]></title>
+    <link href="https://www.ictliuxiao.com/16129280116887.html"/>
+    <updated>2021-02-10T11:33:31+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129280116887.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）JavaScript 语句</h2>
+
+<blockquote>
+<p>JavaScript 语句是发给浏览器的命令。这些命令的作用是告诉浏览器要做的事情。下面的 JavaScript 语句向<code>id=&quot;demo&quot;</code>的 HTML 元素输出文本 &quot;你好JavaScript&quot; ：</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;这是一个段落&lt;/p&gt;
+    &lt;script&gt;
+        document.getElementById(&quot;demo&quot;).innerHTML = &quot;你好 JavaScript&quot;;
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）JavaScript 代码</h2>
+
+<blockquote>
+<p>JavaScript 代码是 JavaScript 语句的序列。浏览器按照编写顺序依次执行每条语句。本例向网页输出一个标题和两个段落。</p>
+</blockquote>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;demo&quot;&gt;一个段落。&lt;/p&gt;
+    &lt;div id=&quot;myDIV&quot;&gt;一个 DIV。&lt;/div&gt;
+&lt;script&gt;
+    document.getElementById(&quot;demo&quot;).innerHTML=&quot;你好 JavaScript&quot;;
+    document.getElementById(&quot;myDIV&quot;).innerHTML=&quot;你最近怎么样?&quot;;
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）JavaScript 代码块</h2>
+
+<blockquote>
+<p>JavaScript 可以分批地组合起来。代码块以左花括号开始，以右花括号结束。代码块的作用是一并地执行语句序列。</p>
+</blockquote>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt;
+    &lt;h1&gt;这是一个JavaScript 程序&lt;/h1&gt;
+    &lt;p id=&quot;myPar&quot;&gt;我是一个段落。&lt;/p&gt;
+    &lt;div id=&quot;myDiv&quot;&gt;我是一个div。&lt;/div&gt;
+    &lt;p&gt;
+    &lt;button type=&quot;button&quot; onclick=&quot;myFunction()&quot;&gt;点击这里&lt;/button&gt;
+    &lt;/p&gt;
+    &lt;script&gt;
+    function myFunction(){
+        document.getElementById(&quot;myPar&quot;).innerHTML=&quot;你好世界！&quot;;
+        document.getElementById(&quot;myDiv&quot;).innerHTML=&quot;你最近怎么样?&quot;;
+    }
+    &lt;/script&gt;
+    &lt;p&gt;当点击上面的按钮时，两个元素会改变。&lt;/p&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1、PHP简介]]></title>
+    <link href="https://www.ictliuxiao.com/16129282654673.html"/>
+    <updated>2021-02-10T11:37:45+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129282654673.html</id>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言。PHP 是免费的，并且使用非常广泛。同时，对于像微软 ASP 这样的竞争者来说，PHP 无疑是另一种高效率的选项。</p>
+</blockquote>
+
+<h2 id="toc_0">（1）PHP环境搭建</h2>
+
+<p>使用VSCode安装PHP插件，使用PHPStudy完成PHP+Mysql服务。</p>
+
+<p><strong>注意：phpstudy的安装路径必须全路径为英文，否则可能会出现不可预估的错误！</strong></p>
+
+<h2 id="toc_1">（2）第一个PHP程序</h2>
+
+<p>由于phpstudy中的主网站文件放置在WWW中，所以后期编写的网页内容放置在WWW中即可运行。</p>
+
+<h3 id="toc_2">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+&lt;body&gt; 
+    &lt;?php echo &quot;Hello World!&quot;; ?&gt; 
+&lt;/body&gt; 
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_3">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2、PHP语法]]></title>
+    <link href="https://www.ictliuxiao.com/16129282744507.html"/>
+    <updated>2021-02-10T11:37:54+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129282744507.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）基本语法</h2>
+
+<blockquote>
+<p>PHP 脚本可以放在文档中的任何位置。PHP 脚本以 &lt;?php 开始，以 ?&gt; 结束。</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php echo &quot;Hello World!&quot;;?&gt;
+&lt;/body&gt; 
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）PHP注释</h2>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+    // 这是 PHP 单行注释
+
+    /*
+    这是
+    PHP 多行
+    注释
+    */
+    ?&gt;
+&lt;/body&gt;
+</code></pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3、PHP变量]]></title>
+    <link href="https://www.ictliuxiao.com/16129290439321.html"/>
+    <updated>2021-02-10T11:50:43+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129290439321.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）创建（声明）PHP 变量</h2>
+
+<blockquote>
+<p>PHP 没有声明变量的命令。变量在第一次赋值给它的时候被创建。</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+&lt;?php
+$txt=&quot;Hello world!&quot;;
+$x=5;
+$y=10.5;
+echo $txt;
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）局部和全局作用域</h2>
+
+<blockquote>
+<p>在所有函数外部定义的变量，拥有全局作用域。除了函数外，全局变量可以被脚本中的任何部分访问，要在一个函数中访问一个全局变量，需要使用 global 关键字。在 PHP 函数内部声明的变量是局部变量，仅能在函数内部访问。</p>
+</blockquote>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+$x=5; // 全局变量
+
+function myTest()
+{
+    $y=10; // 局部变量
+    echo &quot;&lt;p&gt;测试函数内变量:&lt;p&gt;&quot;;
+    echo &quot;变量 x 为: $x&quot;;
+    echo &quot;&lt;br&gt;&quot;;
+    echo &quot;变量 y 为: $y&quot;;
+} 
+myTest();
+echo &quot;&lt;p&gt;测试函数外变量:&lt;p&gt;&quot;;
+echo &quot;变量 x 为: $x&quot;;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;变量 y 为: $y&quot;;
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）PHP global 关键字</h2>
+
+<blockquote>
+<p>global 关键字用于函数内访问全局变量。在函数内调用函数外定义的全局变量，我们需要在函数中的变量前加上 global 关键字。</p>
+</blockquote>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+&lt;?php
+$x=5;
+$y=10;
+
+function myTest()
+{
+    global $x,$y;
+    $y=$x+$y;
+}
+myTest();
+echo $y; // 输出 15
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[4、PHP echo和print语句]]></title>
+    <link href="https://www.ictliuxiao.com/16129290489220.html"/>
+    <updated>2021-02-10T11:50:48+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129290489220.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）PHP echo 语句</h2>
+
+<blockquote>
+<p>echo 是一个语言结构，使用的时候可以不用加括号，也可以加上括号echo 或 echo()显示字符串。</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+$txt1=&quot;学习 PHP&quot;;
+$txt2=&quot;www.ictliuxiao.com&quot;;
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;Toyota&quot;);
+
+echo $txt1;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;在 $txt2 学习 PHP &quot;;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;我车的品牌是 {$cars[0]}&quot;;
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）PHP print 语句</h2>
+
+<blockquote>
+<p>print 同样是一个语言结构，可以使用括号，也可以不使用括号： print 或 print()显示字符串。</p>
+</blockquote>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+$txt1=&quot;学习 PHP&quot;;
+$txt2=&quot;www.ictliuxiao.com&quot;;
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;Toyota&quot;);
+
+print $txt1;
+print &quot;&lt;br&gt;&quot;;
+print &quot;在 $txt2 学习 PHP &quot;;
+print &quot;&lt;br&gt;&quot;;
+print &quot;我车的品牌是 {$cars[2]}&quot;;
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[5、PHP数据类型]]></title>
+    <link href="https://www.ictliuxiao.com/16129290578802.html"/>
+    <updated>2021-02-10T11:50:57+08:00</updated>
+    <id>https://www.ictliuxiao.com/16129290578802.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">（1）PHP 字符串</h2>
+
+<blockquote>
+<p>一个字符串是一串字符的序列，就像 &quot;Hello world!&quot;。可以将任何文本放在单引号和双引号中。</p>
+</blockquote>
+
+<h3 id="toc_1">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php 
+$x = &quot;Hello world!&quot;;
+echo $x;
+echo &quot;&lt;br&gt;&quot;; 
+$x = &#39;Hello world!&#39;;
+echo $x;
+?&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_2">效果：</h3>
+
+<h2 id="toc_3">（2）PHP 整型</h2>
+
+<blockquote>
+<p>整数是一个没有小数的数字。<br/>
+整数规则:<br/>
+整数必须至少有一个数字 (0-9)<br/>
+整数不能包含逗号或空格<br/>
+整数是没有小数点的<br/>
+整数可以是正数或负数<br/>
+整型可以用三种格式来指定：十进制， 十六进制（ 以 0x 为前缀）或八进制（前缀为 0）。</p>
+</blockquote>
+
+<h3 id="toc_4">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php 
+$x = 5985;
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = -345; // 负数
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = 0x8C; // 十六进制数
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;;
+$x = 047; // 八进制数
+var_dump($x);
+?&gt; 
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_5">效果：</h3>
+
+<h2 id="toc_6">（3）PHP 浮点型</h2>
+
+<blockquote>
+<p>浮点数是带小数部分的数字，或是指数形式。<br/>
+在以下实例中我们将测试不同的数字。 <code>PHP var_dump()</code>函数返回变量的数据类型和值。</p>
+</blockquote>
+
+<h3 id="toc_7">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php 
+$x = 10.365;
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = 2.4e3;
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = 8E-5;
+var_dump($x);
+?&gt; 
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_8">效果：</h3>
+
+<h2 id="toc_9">（4）PHP 数组</h2>
+
+<blockquote>
+<p>数组可以在一个变量中存储多个值。在以下实例中创建了一个数组， 然后使用<code>PHP var_dump()</code>函数返回数组的数据类型和值。</p>
+</blockquote>
+
+<h3 id="toc_10">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php 
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;Toyota&quot;);
+var_dump($cars);
+?&gt;  
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_11">效果：</h3>
+
+<h2 id="toc_12">（5）PHP 对象</h2>
+
+<blockquote>
+<p>对象数据类型也可以用于存储数据。在 PHP 中，对象必须声明。<br/>
+首先，必须使用class关键字声明类对象。类是可以包含属性和方法的结构。</p>
+</blockquote>
+
+<h3 id="toc_13">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+class Car
+{
+    var $color;
+    function __construct($color=&quot;green&quot;) {
+      $this-&gt;color = $color;
+    }
+    function what_color() {
+      return $this-&gt;color;
+    }
+}
+function print_vars($obj) {
+   foreach (get_object_vars($obj) as $prop =&gt; $val) {
+     echo &quot;\t$prop = $val\n&quot;;
+   }
+}
+// 实例一个对象
+$herbie = new Car(&quot;white&quot;);
+// 显示 herbie 属性
+echo &quot;\therbie: Properties\n&quot;;
+print_vars($herbie);
+?&gt;  
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_14">效果：</h3>
+
+<h2 id="toc_15">（6）PHP NULL 值</h2>
+
+<blockquote>
+<p>NULL 值表示变量没有值。NULL 是数据类型为 NULL 的值。NULL 值指明一个变量是否为空值。 同样可用于数据空值和NULL值的区别。</p>
+</blockquote>
+
+<h3 id="toc_16">代码：</h3>
+
+<pre class="line-numbers"><code class="language-text">&lt;body&gt; 
+    &lt;h1&gt;这是一个PHP页面&lt;/h1&gt;
+    &lt;?php
+$x=&quot;Hello world!&quot;;
+$x=null;
+var_dump($x);
+?&gt; 
+&lt;/body&gt;
+</code></pre>
+
+<h3 id="toc_17">效果：</h3>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2、IP和TCP抓包分析实验]]></title>
+    <link href="https://www.ictliuxiao.com/15970236730440.html"/>
+    <updated>2020-08-10T09:41:13+08:00</updated>
+    <id>https://www.ictliuxiao.com/15970236730440.html</id>
+    <content type="html"><![CDATA[
+<h3>实验拓扑</h3>
+
+<p><center><img src="media/15970236730440/2-1.png" alt="2-1"/></center></p>
+
+<blockquote>
+<p>注：如无特别说明，描述中的R1或SW1对应拓扑中设备名称末尾数字为1的设备，R2或SW2对应拓扑中设备名称末尾数字为2的设备，以此类推</p>
+
+<hr/>
+</blockquote>
+
+<h3>实验需求</h3>
+
+<p>1.配置IP地址，R1的g0/0口是1.1.1.1/24，R2的g0/0口是1.1.1.2/24<br/>
+2.在该链路上开启抓包<br/>
+3.在R1上ping R2<br/>
+4.开启wireshark，查看抓取的ping包的内容<br/>
+5.在R2上开启FTP服务<br/>
+6.在R1上访问R2的FTP<br/>
+7.刷新wireshark，查看抓取的FTP的登录名和密码</p>
+
+<h3>实验解法</h3>
+
+<h5 id="toc_0">1.修改设备名称</h5>
+
+<p><em>步骤1：在R1上进入系统视图，修改设备名称为R1</em></p>
+
+<pre class="line-numbers"><code class="language-text">&lt;H3C&gt;system-view 
+System View: return to User View with Ctrl+Z.
+[H3C]sysname R1
+[R1]
+</code></pre>
+
+<p><em>步骤2：在R2上进入系统视图，修改设备名称为R2</em></p>
+
+<pre class="line-numbers"><code class="language-text">&lt;H3C&gt;system-view 
+System View: return to User View with Ctrl+Z.
+[H3C]sysname R2
+[R2]
+</code></pre>
+
+<h5 id="toc_1">2.配置IP地址</h5>
+
+<p><em>步骤1：在R1上进入g0/0接口的接口视图，配置IP地址为1.1.1.1/24</em></p>
+
+<pre class="line-numbers"><code class="language-text">[R1]interface g0/0
+[R1-GigabitEthernet0/0]ip address 1.1.1.1 24
+</code></pre>
+
+<p><em>步骤2：在R2上进入g0/0接口的接口视图，配置IP地址为1.1.1.2/24</em></p>
+
+<pre class="line-numbers"><code class="language-text">[R2]interface g0/0
+[R2-GigabitEthernet0/0]ip address 1.1.1.2 24
+</code></pre>
+
+<h5 id="toc_2">3.开启抓包</h5>
+
+<p><em>步骤1：右键点击R1和R2相连的链路，点击开启抓包，如图1-2所示</em></p>
+
+<p><center><img src="media/15970236730440/2-2.png" alt="2-2"/></center></p>
+
+<h5 id="toc_3">4.在R1上PING R2</h5>
+
+<pre class="line-numbers"><code class="language-text">[R1]ping 1.1.1.2
+Ping 1.1.1.2 (1.1.1.2): 56 data bytes, press CTRL_C to break
+56 bytes from 1.1.1.2: icmp_seq=0 ttl=255 time=1.000 ms
+56 bytes from 1.1.1.2: icmp_seq=1 ttl=255 time=1.000 ms
+56 bytes from 1.1.1.2: icmp_seq=2 ttl=255 time=0.000 ms
+56 bytes from 1.1.1.2: icmp_seq=3 ttl=255 time=1.000 ms
+56 bytes from 1.1.1.2: icmp_seq=4 ttl=255 time=1.000 ms
+</code></pre>
+
+<h5 id="toc_4">5.开启Wireshark，查看抓取的Ping包内容</h5>
+
+<p><em>步骤1：点开HCL右侧边栏，右键点击GE0/0接口，并点击启动Wireshark</em><br/>
+<center><img src="media/15970236730440/2-3.png" alt="2-3"/><br/>
+</center></p>
+
+<p><em>步骤2：在Wireshark中可以看到抓到的数据包，紫色高亮的就是Ping包</em><br/>
+<center><img src="media/15970236730440/2-4.png" alt="2-4"/><br/>
+</center></p>
+
+<p><em>步骤3：双击某个Ping包，查看数据包详细内容，展开Internet Protocol Version 4，可以查看到详细的IP头部格式</em><br/>
+<center><img src="media/15970236730440/2-5.png" alt="2-5"/><br/>
+</center></p>
+
+<h5 id="toc_5">6.在R2上开启FTP服务，创建用户wangdaye，密码123456</h5>
+
+<pre class="line-numbers"><code class="language-text">[R2]ftp server enable 
+[R2]local-user wangdaye class manage 
+New local user added.
+[R2-luser-manage-wangdaye]password simple 123456
+[R2-luser-manage-wangdaye]authorization-attribute user-role level-15
+[R2-luser-manage-wangdaye]service-type ftp
+</code></pre>
+
+<h5 id="toc_6">7.在R1上访问FTP服务，输入用户名和密码</h5>
+
+<p><em><font color='red'>注意：FTP登录功能只能在用户视图下使用</font></em></p>
+
+<pre class="line-numbers"><code class="language-text">&lt;R1&gt;ftp 1.1.1.2
+Press CTRL+C to abort.
+Connected to 1.1.1.2 (1.1.1.2).
+220 FTP service ready.
+User (1.1.1.2:(none)): wangdaye
+331 Password required for wangdaye.
+Password: 
+230 User logged in.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+</code></pre>
+
+<h5 id="toc_7">8. 刷新Wireshark，发现已经抓取到FTP的登录名和密码</h5>
+
+<p><center><img src="media/15970236730440/2-6.png" alt="2-6"/></center></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3、Telnet配置实验]]></title>
+    <link href="https://www.ictliuxiao.com/15970251903006.html"/>
+    <updated>2020-08-10T10:06:30+08:00</updated>
+    <id>https://www.ictliuxiao.com/15970251903006.html</id>
+    <content type="html"><![CDATA[
+<h3>实验拓扑</h3>
+
+<p><center><img src="media/15970251903006/3-1.png" alt="3-1"/><br/>
+</center></p>
+
+<blockquote>
+<p>注：如无特别说明，描述中的R1或SW1对应拓扑中设备名称末尾数字为1的设备，R2或SW2对应拓扑中设备名称末尾数字为2的设备，以此类推</p>
+
+<hr/>
+</blockquote>
+<h3>实验需求</h3>
+1、按照图示连接到真机，并配置IP地址（真机IP地址配置到VirtualBox Host-Only Ethernet Adapter网卡）
+2、在R1上开启Telnet服务，创建用户wangdaye，密码123456用于身份验证
+3、在真机上使用S-CRT通过Telnet登录R1
+<h3>
+<p>实验解法</p>
+</h3>
+
+<h5 id="toc_0">1.连接真机，配置IP地址步骤略</h5>
+
+<h5 id="toc_1">2.R1上开启Telnet服务</h5>
+
+<pre class="line-numbers"><code class="language-text">[R1]telnet server enable
+</code></pre>
+
+<h5 id="toc_2">3.R1上创建用户“wangdaye”，密码“123456”用于Telnet身份验证</h5>
+
+<pre class="line-numbers"><code class="language-text">[R1]local-user wangdaye class manage 
+New local user added.
+[R1-luser-manage-wangdaye]password simple 123456
+[R1-luser-manage-wangdaye]service-type telnet 
+[R1-luser-manage-wangdaye]authorization-attribute user-role level-15
+</code></pre>
+
+<h5 id="toc_3">4.在vty终端视图下配置Telnet验证模式为AAA验证，权限为Level-15</h5>
+
+<pre class="line-numbers"><code class="language-text">[R1]user-interface vty 0 4
+[R1-line-vty0-4]authentication-mode scheme 
+[R1-line-vty0-4]user-role level-15
+</code></pre>
+
+<h5 id="toc_4">5.真机上使用CRT通过Telnet登录R1，CRT连接配置如图1-2所示，登录界面如图1-3所示</h5>
+
+<p><em>步骤1：打开CRT，点击快速连接，协议选择Telnet，主机名为1.1.1.1，端口默认不变，然后点击连接，如图1-2所示</em><br/>
+<center><img src="media/15970251903006/3-2.png" alt="3-2"/><br/>
+</center></p>
+
+<p><em>步骤2：连接上R1上，提示login，输入用户名；提示Password，输入密码，按回车键，登录成功，如图1-3所示</em><br/>
+<center><img src="media/15970251903006/3-3.png" alt="3-3"/><br/>
+</center></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[4、H3C配置管理实验]]></title>
+    <link href="https://www.ictliuxiao.com/15970254562848.html"/>
+    <updated>2020-08-10T10:10:56+08:00</updated>
+    <id>https://www.ictliuxiao.com/15970254562848.html</id>
+    <content type="html"><![CDATA[
+<h3>实验拓扑</h3>
+
+<p><center><img src="media/15970254562848/4-1.png" alt="4-1"/><br/>
+</center></p>
+
+<blockquote>
+<p>注：如无特别说明，描述中的R1或SW1对应拓扑中设备名称末尾数字为1的设备，R2或SW2对应拓扑中设备名称末尾数字为2的设备，以此类推</p>
+
+<hr/>
+</blockquote>
+
+<h3>实验需求</h3>
+
+<p>1.按照图示连接到真机，并配置IP地址（真机IP地址配置到VirtualBox Host-Only Ethernet Adapter网卡）<br/>
+2.R1保存当前配置<br/>
+3.在R1上开启FTP服务<br/>
+4.使用真机访问FTP服务，把R1的配置文件拷贝到本地<br/>
+5.在R1上清空配置，重启R1，确认已配置为空配状态<br/>
+6.再次在R1开启FTP服务，并把真机拷贝的配置文件还原到路由器<br/>
+7.更改R1的启动配置文件名<br/>
+8.再次重启R1，确认配置已还原</p>
+
+<h3>实验解法</h3>
+
+<h5 id="toc_0">1.如图配置各设备IP地址略</h5>
+
+<h5 id="toc_1">2.R1保存当前配置，并确认，命令如下</h5>
+
+<pre class="line-numbers"><code class="language-text">[R1]save
+The current configuration will be written to the device. Are you sure? [Y/N]:y
+Please input the file name(*.cfg)[flash:/startup.cfg]
+(To leave the existing filename unchanged, press the enter key):
+Validating file. Please wait...
+Configuration is saved to device successfully.
+3.R1上开启FTP服务，创建用户wangdaye，密码123
+</code></pre>
+
+<p><em>步骤1：开启FTP服务</em></p>
+
+<pre class="line-numbers"><code class="language-text">[R1]ftp server enable
+</code></pre>
+
+<p><em>步骤2：创建用于FTP身份验证的用户，配置密码，并设置用户权限级别和服务类型</em></p>
+
+<pre class="line-numbers"><code class="language-text">[R1]local-user wangdaye class manage 
+New local user added.
+[R1-luser-manage-wangdaye]password simple 123456
+[R1-luser-manage-wangdaye]authorization-attribute user-role level-15
+[R1-luser-manage-wangdaye]service-type ftp
+</code></pre>
+
+<h5 id="toc_2">4.使用真机访问FTP服务，备份R1的配置文件</h5>
+
+<p><em>步骤1：使用资源管理器访问FTP服务，如图1-2所示</em></p>
+
+<p><center><img src="media/15970254562848/4-2.png" alt="4-2"/><br/>
+</center></p>
+
+<p><em>步骤2：输入用户名和密码，如图1-3所示</em></p>
+
+<p><center><img src="media/15970254562848/4-3.png" alt="4-3"/><br/>
+</center></p>
+
+<p><em>步骤3：复制R1的配置文件，如图1-4所示</em></p>
+
+<p><center><img src="media/15970254562848/4-4.png" alt="4-4"/><br/>
+</center></p>
+
+<h5 id="toc_3">5.在R1上清空配置，命令如下</h5>
+
+<p><em><font color='red'>分析：此时R1的配置已经备份到PC上，现在把R1的配置清空，再测试还原备份的配置是否有效</font></em></p>
+
+<pre class="line-numbers"><code class="language-text">&lt;R1&gt;reset saved-configuration 
+The saved configuration file will be erased. Are you sure? [Y/N]:y
+Configuration file in flash: is being cleared.  
+Please wait ...
+Configuration file is cleared.
+</code></pre>
+
+<h5 id="toc_4">6.重启R1，命令如下</h5>
+
+<p><em><font color='red'>注意：重启设备时，第一次确认提示是设备检测到配置被清空，询问是否要重新保存当前配置。此次询问需要输入n来否定；第二次确认提示才是询问是否确认要重启，应该输入y</font></em></p>
+
+<pre class="line-numbers"><code class="language-text">&lt;R1&gt;reboot
+Start to check configuration with next startup configuration file, please wait.........DONE!
+Current configuration may be lost after the reboot, save current configuration? [Y/N]:n
+This command will reboot the device. Continue? [Y/N]:y
+Now rebooting, please wait...
+</code></pre>
+
+<h5 id="toc_5">7.查看R1配置，发现R1的配置已经变成空配状态</h5>
+
+<pre class="line-numbers"><code class="language-text">&lt;H3C&gt;display current-configuration 
+#
+ version 7.1.075, Alpha 7571
+#
+ sysname H3C
+#
+system-working-mode standard
+xbar load-single
+password-recovery enable
+lpu-type f-series
+#
+vlan 1   
+</code></pre>
+
+<h5 id="toc_6">8.再次把R1的g0/0口配置IP地址，并开启FTP，命令略</h5>
+
+<h5 id="toc_7">9.把真机上的配置文件还原到路由器，过程略</h5>
+
+<h5 id="toc_8">10.更改R1的启动配置文件名，命令如下</h5>
+
+<pre class="line-numbers"><code class="language-&lt;h3c&gt;startup">Please wait...... Done.
+</code></pre>
+
+<h5 id="toc_9">11.重启R1，确认配置已经还原到请空前的状态</h5>
+
+<pre class="line-numbers"><code class="language-text">&lt;R1&gt;display cu
+&lt;R1&gt;display current-configuration 
+#
+ version 7.1.075, Alpha 7571
+#
+ sysname R1
+#
+ system-working-mode standard
+ xbar load-single
+ password-recovery enable
+ lpu-type f-series
+#
+vlan 1  
+</code></pre>
+
+]]></content>
+  </entry>
+  
+</feed>

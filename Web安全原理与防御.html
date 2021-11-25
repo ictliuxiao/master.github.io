@@ -1,0 +1,977 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  Web安全原理与防御 - 刘箫－在线文档库
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="刘箫－在线文档库" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras" oncontextmenu="return false" onselectstart="return false">
+    <noscript>
+      <iframe src="*.htm"></iframe>
+    </noscript>
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">刘箫－在线文档库</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 刘箫－在线文档库</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>网络安全法律法规</label></li>
+
+          
+            <li><a title="《中华人民共和国网络安全法》" href="16119961713489.html">《中华人民共和国网络安全法》</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>HTML5</label></li>
+
+          
+            <li><a title="1、HTML5简介" href="16129276091343.html">1、HTML5简介</a></li>
+          
+            <li><a title="2、HTML5基础+元素" href="16129276221260.html">2、HTML5基础+元素</a></li>
+          
+            <li><a title="3、属性+标题" href="16129276332130.html">3、属性+标题</a></li>
+          
+            <li><a title="4、段落+链接" href="16129276437841.html">4、段落+链接</a></li>
+          
+            <li><a title="5、头部+CSS" href="16129276700125.html">5、头部+CSS</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>JavaScript</label></li>
+
+          
+            <li><a title="1、JavaScript教程" href="16129279735039.html">1、JavaScript教程</a></li>
+          
+            <li><a title="2、JavaScript在Crome中运行" href="16129279881686.html">2、JavaScript在Crome中运行</a></li>
+          
+            <li><a title="3、JavaScript输出" href="16129280011890.html">3、JavaScript输出</a></li>
+          
+            <li><a title="4、JavaScript语法" href="16129280064831.html">4、JavaScript语法</a></li>
+          
+            <li><a title="5、JavaScript语句" href="16129280116887.html">5、JavaScript语句</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>PHP</label></li>
+
+          
+            <li><a title="1、PHP简介" href="16129282654673.html">1、PHP简介</a></li>
+          
+            <li><a title="2、PHP语法" href="16129282744507.html">2、PHP语法</a></li>
+          
+            <li><a title="3、PHP变量" href="16129290439321.html">3、PHP变量</a></li>
+          
+            <li><a title="4、PHP echo和print语句" href="16129290489220.html">4、PHP echo和print语句</a></li>
+          
+            <li><a title="5、PHP数据类型" href="16129290578802.html">5、PHP数据类型</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>环境部署</label></li>
+
+          
+            <li><a title="HCL模拟器及环境部署" href="15815011879513.html">HCL模拟器及环境部署</a></li>
+          
+            <li><a title="解决HCL安装各种疑难问题 ！" href="15865744724800.html">解决HCL安装各种疑难问题 ！</a></li>
+          
+            <li><a title="DVWA 简介及安装" href="15975823184742.html">DVWA 简介及安装</a></li>
+          
+            <li><a title="Windows Server 2003 安装教程" href="15865762939428.html">Windows Server 2003 安装教程</a></li>
+          
+            <li><a title="Windows Server 2008 安装教程" href="15952160700608.html">Windows Server 2008 安装教程</a></li>
+          
+            <li><a title="Windows Server 2012 R2安装教程" href="15803557975598.html">Windows Server 2012 R2安装教程</a></li>
+          
+            <li><a title="Windows7 安装教程" href="16135741499492.html">Windows7 安装教程</a></li>
+          
+            <li><a title="Windows 10 1909安装教程" href="16137480495426.html">Windows 10 1909安装教程</a></li>
+          
+            <li><a title="Office 2013 安装部署" href="16137480571317.html">Office 2013 安装部署</a></li>
+          
+            <li><a title="VMware Tools 安装教程" href="15803583101550.html">VMware Tools 安装教程</a></li>
+          
+            <li><a title="Kali Linux  安装教程" href="15777277257654.html">Kali Linux  安装教程</a></li>
+          
+            <li><a title="Kali安装VMTools安装教程" href="16135741063680.html">Kali安装VMTools安装教程</a></li>
+          
+            <li><a title="Linux Centos7 安装教程" href="15804481961964.html">Linux Centos7 安装教程</a></li>
+          
+            <li><a title="Wireshark安装教程" href="15835058641920.html">Wireshark安装教程</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Web安全原理与防御</label></li>
+
+          
+            <li><a title="Web 渗透概述" href="15970276640033.html">Web 渗透概述</a></li>
+          
+            <li><a title="Web 服务原理" href="15970288048672.html">Web 服务原理</a></li>
+          
+            <li><a title="拓扑环境介绍及相关信息" href="16112804202096.html">拓扑环境介绍及相关信息</a></li>
+          
+            <li><a title="VMware Workstation Pro安装和基础配置实验" href="16112812779249.html">VMware Workstation Pro安装和基础配置实验</a></li>
+          
+            <li><a title="部署Windows 7靶机DVWA/CMS" href="16135742303232.html">部署Windows 7靶机DVWA/CMS</a></li>
+          
+            <li><a title="部署Windows Server 2003靶机Web" href="16135742473224.html">部署Windows Server 2003靶机Web</a></li>
+          
+            <li><a title="nslookup和dig根据域名查询IP" href="16135742661452.html">nslookup和dig根据域名查询IP</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Metasploit渗透测试</label></li>
+
+          
+            <li><a title="渗透测试概述" href="15934859603804.html">渗透测试概述</a></li>
+          
+            <li><a title="渗透测试的起源和定义" href="15934834481999.html">渗透测试的起源和定义</a></li>
+          
+            <li><a title="渗透测试分类" href="15934882176973.html">渗透测试分类</a></li>
+          
+            <li><a title="安全漏洞" href="15934892217104.html">安全漏洞</a></li>
+          
+            <li><a title="Hcking Process" href="15929718765341.html">Hcking Process</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>H3CNE实验文档</label></li>
+
+          
+            <li><a title="2、IP和TCP抓包分析实验" href="15970236730440.html">2、IP和TCP抓包分析实验</a></li>
+          
+            <li><a title="3、Telnet配置实验" href="15970251903006.html">3、Telnet配置实验</a></li>
+          
+            <li><a title="4、H3C配置管理实验" href="15970254562848.html">4、H3C配置管理实验</a></li>
+          
+            <li><a title="5、Vlan和Trunk实验" href="15970257397871.html">5、Vlan和Trunk实验</a></li>
+          
+            <li><a title="6、STP实验" href="15970258221539.html">6、STP实验</a></li>
+          
+            <li><a title="7、交换机端口安全实验" href="15970258897850.html">7、交换机端口安全实验</a></li>
+          
+            <li><a title="8、链路聚合实验" href="15970259525331.html">8、链路聚合实验</a></li>
+          
+            <li><a title="9、IP子网划分计算" href="15970260183328.html">9、IP子网划分计算</a></li>
+          
+            <li><a title="10、DHCP实验" href="15970262887464.html">10、DHCP实验</a></li>
+          
+            <li><a title="11、DHCP中继实验" href="15970264455458.html">11、DHCP中继实验</a></li>
+          
+            <li><a title="12、IPv6实验" href="15970265384202.html">12、IPv6实验</a></li>
+          
+            <li><a title="13、单臂路由实验" href="15970266611875.html">13、单臂路由实验</a></li>
+          
+            <li><a title="14、三层交换实验" href="15970267781250.html">14、三层交换实验</a></li>
+          
+            <li><a title="15、静态路由实验" href="15970268681281.html">15、静态路由实验</a></li>
+          
+            <li><a title="16、RIP实验" href="15970269364244.html">16、RIP实验</a></li>
+          
+            <li><a title="17、OSPF 实验" href="15970270941889.html">17、OSPF 实验</a></li>
+          
+            <li><a title="18、ACL 实验" href="15970271802329.html">18、ACL 实验</a></li>
+          
+            <li><a title="19、NAT 实验" href="15970272722854.html">19、NAT 实验</a></li>
+          
+            <li><a title="20、PPP 实验" href="15970273483318.html">20、PPP 实验</a></li>
+          
+            <li><a title="21、H3CNE 综合实验" href="15970274115670.html">21、H3CNE 综合实验</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>H3CSE大规模路由实验文档</label></li>
+
+          
+            <li><a title="1、路由器备份&聚合实验" href="15971097126866.html">1、路由器备份&聚合实验</a></li>
+          
+            <li><a title="2、路由备份&路由聚合排错实验" href="15971095962421.html">2、路由备份&路由聚合排错实验</a></li>
+          
+            <li><a title="3、OSPF 实验" href="15971095076691.html">3、OSPF 实验</a></li>
+          
+            <li><a title="4、OSPF 排错实验" href="15971094405074.html">4、OSPF 排错实验</a></li>
+          
+            <li><a title="5、OSPF 综合实验" href="15971093743150.html">5、OSPF 综合实验</a></li>
+          
+            <li><a title="6、OSPF 综合排错实验" href="15971093103350.html">6、OSPF 综合排错实验</a></li>
+          
+            <li><a title="7、IS-IS 实验" href="15971092209293.html">7、IS-IS 实验</a></li>
+          
+            <li><a title="8、IS-IS 排错实验" href="15971091139164.html">8、IS-IS 排错实验</a></li>
+          
+            <li><a title="9、路由过滤&路由引入实验" href="15971090596820.html">9、路由过滤&路由引入实验</a></li>
+          
+            <li><a title="10、路由过滤&路由引入排错实验" href="15971090078826.html">10、路由过滤&路由引入排错实验</a></li>
+          
+            <li><a title="11、PBR 实验" href="15971089401266.html">11、PBR 实验</a></li>
+          
+            <li><a title="12、BGP 基本配置实验" href="15971088705562.html">12、BGP 基本配置实验</a></li>
+          
+            <li><a title="13、BGP 基本排错实验" href="15971088183599.html">13、BGP 基本排错实验</a></li>
+          
+            <li><a title="14、BGP 路由控制实验" href="15971087474876.html">14、BGP 路由控制实验</a></li>
+          
+            <li><a title="15、BGP 路由控制排错实验" href="15971086454898.html">15、BGP 路由控制排错实验</a></li>
+          
+            <li><a title="16、BGP 路由反射实验" href="15971085909742.html">16、BGP 路由反射实验</a></li>
+          
+            <li><a title="17、BGP 联盟实验" href="15971085319656.html">17、BGP 联盟实验</a></li>
+          
+            <li><a title="18、IPv6 路由实验" href="15971084403845.html">18、IPv6 路由实验</a></li>
+          
+            <li><a title="19、6 to 4 隧道实验" href="15971084068415.html">19、6 to 4 隧道实验</a></li>
+          
+            <li><a title="20、大规模路由综合实验" href="15971082659126.html">20、大规模路由综合实验</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>H3CSE园区网实验文档</label></li>
+
+          
+            <li><a title="1、Hybrid 实验" href="15971110203636.html">1、Hybrid 实验</a></li>
+          
+            <li><a title="2、MVRP 实验" href="15971109912856.html">2、MVRP 实验</a></li>
+          
+            <li><a title="3、VLAN 排错实验" href="15971109355344.html">3、VLAN 排错实验</a></li>
+          
+            <li><a title="4、Private VLAN 实验" href="15971109132408.html">4、Private VLAN 实验</a></li>
+          
+            <li><a title="5、VLAN 路由实验" href="15971108858041.html">5、VLAN 路由实验</a></li>
+          
+            <li><a title="6、VLAN 路由排错实验" href="15971108614501.html">6、VLAN 路由排错实验</a></li>
+          
+            <li><a title="7、MSTP 实验" href="15971105649357.html">7、MSTP 实验</a></li>
+          
+            <li><a title="8、MSTP 排错实验" href="15971105124728.html">8、MSTP 排错实验</a></li>
+          
+            <li><a title="9、链路聚合实验" href="15971104734005.html">9、链路聚合实验</a></li>
+          
+            <li><a title="10、链路聚合排错实验" href="15971104158088.html">10、链路聚合排错实验</a></li>
+          
+            <li><a title="11、Smart-link 实验" href="15971103649842.html">11、Smart-link 实验</a></li>
+          
+            <li><a title="12、Smart-link 排错实验" href="15971103146679.html">12、Smart-link 排错实验</a></li>
+          
+            <li><a title="13、RRPP 实验" href="15971102832052.html">13、RRPP 实验</a></li>
+          
+            <li><a title="14、VRRP 实验" href="15971102423883.html">14、VRRP 实验</a></li>
+          
+            <li><a title="15、VRRP 排错实验" href="15971102171802.html">15、VRRP 排错实验</a></li>
+          
+            <li><a title="16、IRF 实验" href="15971101812457.html">16、IRF 实验</a></li>
+          
+            <li><a title="17、组播实验" href="15971101481278.html">17、组播实验</a></li>
+          
+            <li><a title="18、SSH 实验" href="15971100969733.html">18、SSH 实验</a></li>
+          
+            <li><a title="19、园区网综合实验" href="15971100463968.html">19、园区网综合实验</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>H3CSE广域网实验文档</label></li>
+
+          
+            <li><a title="1、PPPOE 实验" href="15971121324515.html">1、PPPOE 实验</a></li>
+          
+            <li><a title="2、GRE VPN 实验" href="15971121061496.html">2、GRE VPN 实验</a></li>
+          
+            <li><a title="3、IPsec VPN 实验" href="15971120719703.html">3、IPsec VPN 实验</a></li>
+          
+            <li><a title="4、GRE over IPsec VPN 实验" href="15971120240205.html">4、GRE over IPsec VPN 实验</a></li>
+          
+            <li><a title="5、IPsec over GRE VPN 实验" href="15971119919682.html">5、IPsec over GRE VPN 实验</a></li>
+          
+            <li><a title="6、VPN 排错实验" href="15971119688175.html">6、VPN 排错实验</a></li>
+          
+            <li><a title="7、BGP MPLS VPN 实验" href="15971119427679.html">7、BGP MPLS VPN 实验</a></li>
+          
+            <li><a title="8、QOS 实验" href="15971119141090.html">8、QOS 实验</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>实战演练</label></li>
+
+          
+            <li><a title="Windows隐藏后门账户" href="15778921528695.html">Windows隐藏后门账户</a></li>
+          
+            <li><a title="“ARP流量攻击”实战演练" href="15835047952231.html">“ARP流量攻击”实战演练</a></li>
+          
+            <li><a title="“Hydra”密码爆破实战演练" href="15898727114797.html">“Hydra”密码爆破实战演练</a></li>
+          
+            <li><a title="利用Excel 4.0宏执行任意命令" href="15835903130455.html">利用Excel 4.0宏执行任意命令</a></li>
+          
+            <li><a title="“永恒之蓝”勒索病毒实战演练" href="15777610682083.html">“永恒之蓝”勒索病毒实战演练</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>无线安全技术</label></li>
+
+          
+            <li><a title="无线网络基础" href="15935697571945.html">无线网络基础</a></li>
+          
+            <li><a title="无线网络加密方式及破解" href="15935697703464.html">无线网络加密方式及破解</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>安全运维技术</label></li>
+
+          
+            <li><a title="防火墙基础" href="15936542531605.html">防火墙基础</a></li>
+          
+            <li><a title="防火墙技术原理" href="15936563369156.html">防火墙技术原理</a></li>
+          
+            <li><a title="防火墙攻击防范" href="15936559778238.html">防火墙攻击防范</a></li>
+          
+            <li><a title="防火墙技术最高境界-双机热备" href="15947775776668.html">防火墙技术最高境界-双机热备</a></li>
+          
+            <li><a title="1、防火墙web和telnet登陆实验" href="15950399042906.html">1、防火墙web和telnet登陆实验</a></li>
+          
+            <li><a title="2、防火墙Access模式组网实验" href="15950412494728.html">2、防火墙Access模式组网实验</a></li>
+          
+            <li><a title="3、防火墙Trunk模式组网实验" href="15950435615923.html">3、防火墙Trunk模式组网实验</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>网络攻击与防御技术</label></li>
+
+          
+            <li><a title="第一章 网络攻防技术概述" href="15783601644636.html">第一章 网络攻防技术概述</a></li>
+          
+            <li><a title="1.1 黑客、红客及红黑对抗" href="15783627614457.html">1.1 黑客、红客及红黑对抗</a></li>
+          
+            <li><a title="1.2 网络攻击的类型" href="15783628997471.html">1.2 网络攻击的类型</a></li>
+          
+            <li><a title="1.3 网络攻击的属性" href="15783629572359.html">1.3 网络攻击的属性</a></li>
+          
+            <li><a title="1.4 主要攻击方法" href="15783630560456.html">1.4 主要攻击方法</a></li>
+          
+            <li><a title="1.5 网络攻击的实施过程" href="15783630973387.html">1.5 网络攻击的实施过程</a></li>
+          
+            <li><a title="1.6 网络攻防的发展趋势" href="15783631374798.html">1.6 网络攻防的发展趋势</a></li>
+          
+            <li><a title="第二章 Windows操作系统的攻防" href="15867901202731.html">第二章 Windows操作系统的攻防</a></li>
+          
+            <li><a title="2.1 Windows操作系统的安全机制" href="15867923181295.html">2.1 Windows操作系统的安全机制</a></li>
+          
+            <li><a title="2.2 针对Windows数据的攻防" href="15883437290975.html">2.2 针对Windows数据的攻防</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>网络安全法律法规</span></li>
+                        
+                          <li><a title="《中华人民共和国网络安全法》" href="16119961713489.html">《中华人民共和国网络安全法》</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>HTML5</span></li>
+                        
+                          <li><a title="1、HTML5简介" href="16129276091343.html">1、HTML5简介</a></li>
+                        
+                          <li><a title="2、HTML5基础+元素" href="16129276221260.html">2、HTML5基础+元素</a></li>
+                        
+                          <li><a title="3、属性+标题" href="16129276332130.html">3、属性+标题</a></li>
+                        
+                          <li><a title="4、段落+链接" href="16129276437841.html">4、段落+链接</a></li>
+                        
+                          <li><a title="5、头部+CSS" href="16129276700125.html">5、头部+CSS</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>JavaScript</span></li>
+                        
+                          <li><a title="1、JavaScript教程" href="16129279735039.html">1、JavaScript教程</a></li>
+                        
+                          <li><a title="2、JavaScript在Crome中运行" href="16129279881686.html">2、JavaScript在Crome中运行</a></li>
+                        
+                          <li><a title="3、JavaScript输出" href="16129280011890.html">3、JavaScript输出</a></li>
+                        
+                          <li><a title="4、JavaScript语法" href="16129280064831.html">4、JavaScript语法</a></li>
+                        
+                          <li><a title="5、JavaScript语句" href="16129280116887.html">5、JavaScript语句</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>PHP</span></li>
+                        
+                          <li><a title="1、PHP简介" href="16129282654673.html">1、PHP简介</a></li>
+                        
+                          <li><a title="2、PHP语法" href="16129282744507.html">2、PHP语法</a></li>
+                        
+                          <li><a title="3、PHP变量" href="16129290439321.html">3、PHP变量</a></li>
+                        
+                          <li><a title="4、PHP echo和print语句" href="16129290489220.html">4、PHP echo和print语句</a></li>
+                        
+                          <li><a title="5、PHP数据类型" href="16129290578802.html">5、PHP数据类型</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>环境部署</span></li>
+                        
+                          <li><a title="HCL模拟器及环境部署" href="15815011879513.html">HCL模拟器及环境部署</a></li>
+                        
+                          <li><a title="解决HCL安装各种疑难问题 ！" href="15865744724800.html">解决HCL安装各种疑难问题 ！</a></li>
+                        
+                          <li><a title="DVWA 简介及安装" href="15975823184742.html">DVWA 简介及安装</a></li>
+                        
+                          <li><a title="Windows Server 2003 安装教程" href="15865762939428.html">Windows Server 2003 安装教程</a></li>
+                        
+                          <li><a title="Windows Server 2008 安装教程" href="15952160700608.html">Windows Server 2008 安装教程</a></li>
+                        
+                          <li><a title="Windows Server 2012 R2安装教程" href="15803557975598.html">Windows Server 2012 R2安装教程</a></li>
+                        
+                          <li><a title="Windows7 安装教程" href="16135741499492.html">Windows7 安装教程</a></li>
+                        
+                          <li><a title="Windows 10 1909安装教程" href="16137480495426.html">Windows 10 1909安装教程</a></li>
+                        
+                          <li><a title="Office 2013 安装部署" href="16137480571317.html">Office 2013 安装部署</a></li>
+                        
+                          <li><a title="VMware Tools 安装教程" href="15803583101550.html">VMware Tools 安装教程</a></li>
+                        
+                          <li><a title="Kali Linux  安装教程" href="15777277257654.html">Kali Linux  安装教程</a></li>
+                        
+                          <li><a title="Kali安装VMTools安装教程" href="16135741063680.html">Kali安装VMTools安装教程</a></li>
+                        
+                          <li><a title="Linux Centos7 安装教程" href="15804481961964.html">Linux Centos7 安装教程</a></li>
+                        
+                          <li><a title="Wireshark安装教程" href="15835058641920.html">Wireshark安装教程</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Web安全原理与防御</span></li>
+                        
+                          <li><a title="Web 渗透概述" href="15970276640033.html">Web 渗透概述</a></li>
+                        
+                          <li><a title="Web 服务原理" href="15970288048672.html">Web 服务原理</a></li>
+                        
+                          <li><a title="拓扑环境介绍及相关信息" href="16112804202096.html">拓扑环境介绍及相关信息</a></li>
+                        
+                          <li><a title="VMware Workstation Pro安装和基础配置实验" href="16112812779249.html">VMware Workstation Pro安装和基础配置实验</a></li>
+                        
+                          <li><a title="部署Windows 7靶机DVWA/CMS" href="16135742303232.html">部署Windows 7靶机DVWA/CMS</a></li>
+                        
+                          <li><a title="部署Windows Server 2003靶机Web" href="16135742473224.html">部署Windows Server 2003靶机Web</a></li>
+                        
+                          <li><a title="nslookup和dig根据域名查询IP" href="16135742661452.html">nslookup和dig根据域名查询IP</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Metasploit渗透测试</span></li>
+                        
+                          <li><a title="渗透测试概述" href="15934859603804.html">渗透测试概述</a></li>
+                        
+                          <li><a title="渗透测试的起源和定义" href="15934834481999.html">渗透测试的起源和定义</a></li>
+                        
+                          <li><a title="渗透测试分类" href="15934882176973.html">渗透测试分类</a></li>
+                        
+                          <li><a title="安全漏洞" href="15934892217104.html">安全漏洞</a></li>
+                        
+                          <li><a title="Hcking Process" href="15929718765341.html">Hcking Process</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>H3CNE实验文档</span></li>
+                        
+                          <li><a title="2、IP和TCP抓包分析实验" href="15970236730440.html">2、IP和TCP抓包分析实验</a></li>
+                        
+                          <li><a title="3、Telnet配置实验" href="15970251903006.html">3、Telnet配置实验</a></li>
+                        
+                          <li><a title="4、H3C配置管理实验" href="15970254562848.html">4、H3C配置管理实验</a></li>
+                        
+                          <li><a title="5、Vlan和Trunk实验" href="15970257397871.html">5、Vlan和Trunk实验</a></li>
+                        
+                          <li><a title="6、STP实验" href="15970258221539.html">6、STP实验</a></li>
+                        
+                          <li><a title="7、交换机端口安全实验" href="15970258897850.html">7、交换机端口安全实验</a></li>
+                        
+                          <li><a title="8、链路聚合实验" href="15970259525331.html">8、链路聚合实验</a></li>
+                        
+                          <li><a title="9、IP子网划分计算" href="15970260183328.html">9、IP子网划分计算</a></li>
+                        
+                          <li><a title="10、DHCP实验" href="15970262887464.html">10、DHCP实验</a></li>
+                        
+                          <li><a title="11、DHCP中继实验" href="15970264455458.html">11、DHCP中继实验</a></li>
+                        
+                          <li><a title="12、IPv6实验" href="15970265384202.html">12、IPv6实验</a></li>
+                        
+                          <li><a title="13、单臂路由实验" href="15970266611875.html">13、单臂路由实验</a></li>
+                        
+                          <li><a title="14、三层交换实验" href="15970267781250.html">14、三层交换实验</a></li>
+                        
+                          <li><a title="15、静态路由实验" href="15970268681281.html">15、静态路由实验</a></li>
+                        
+                          <li><a title="16、RIP实验" href="15970269364244.html">16、RIP实验</a></li>
+                        
+                          <li><a title="17、OSPF 实验" href="15970270941889.html">17、OSPF 实验</a></li>
+                        
+                          <li><a title="18、ACL 实验" href="15970271802329.html">18、ACL 实验</a></li>
+                        
+                          <li><a title="19、NAT 实验" href="15970272722854.html">19、NAT 实验</a></li>
+                        
+                          <li><a title="20、PPP 实验" href="15970273483318.html">20、PPP 实验</a></li>
+                        
+                          <li><a title="21、H3CNE 综合实验" href="15970274115670.html">21、H3CNE 综合实验</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>H3CSE大规模路由实验文档</span></li>
+                        
+                          <li><a title="1、路由器备份&聚合实验" href="15971097126866.html">1、路由器备份&聚合实验</a></li>
+                        
+                          <li><a title="2、路由备份&路由聚合排错实验" href="15971095962421.html">2、路由备份&路由聚合排错实验</a></li>
+                        
+                          <li><a title="3、OSPF 实验" href="15971095076691.html">3、OSPF 实验</a></li>
+                        
+                          <li><a title="4、OSPF 排错实验" href="15971094405074.html">4、OSPF 排错实验</a></li>
+                        
+                          <li><a title="5、OSPF 综合实验" href="15971093743150.html">5、OSPF 综合实验</a></li>
+                        
+                          <li><a title="6、OSPF 综合排错实验" href="15971093103350.html">6、OSPF 综合排错实验</a></li>
+                        
+                          <li><a title="7、IS-IS 实验" href="15971092209293.html">7、IS-IS 实验</a></li>
+                        
+                          <li><a title="8、IS-IS 排错实验" href="15971091139164.html">8、IS-IS 排错实验</a></li>
+                        
+                          <li><a title="9、路由过滤&路由引入实验" href="15971090596820.html">9、路由过滤&路由引入实验</a></li>
+                        
+                          <li><a title="10、路由过滤&路由引入排错实验" href="15971090078826.html">10、路由过滤&路由引入排错实验</a></li>
+                        
+                          <li><a title="11、PBR 实验" href="15971089401266.html">11、PBR 实验</a></li>
+                        
+                          <li><a title="12、BGP 基本配置实验" href="15971088705562.html">12、BGP 基本配置实验</a></li>
+                        
+                          <li><a title="13、BGP 基本排错实验" href="15971088183599.html">13、BGP 基本排错实验</a></li>
+                        
+                          <li><a title="14、BGP 路由控制实验" href="15971087474876.html">14、BGP 路由控制实验</a></li>
+                        
+                          <li><a title="15、BGP 路由控制排错实验" href="15971086454898.html">15、BGP 路由控制排错实验</a></li>
+                        
+                          <li><a title="16、BGP 路由反射实验" href="15971085909742.html">16、BGP 路由反射实验</a></li>
+                        
+                          <li><a title="17、BGP 联盟实验" href="15971085319656.html">17、BGP 联盟实验</a></li>
+                        
+                          <li><a title="18、IPv6 路由实验" href="15971084403845.html">18、IPv6 路由实验</a></li>
+                        
+                          <li><a title="19、6 to 4 隧道实验" href="15971084068415.html">19、6 to 4 隧道实验</a></li>
+                        
+                          <li><a title="20、大规模路由综合实验" href="15971082659126.html">20、大规模路由综合实验</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>H3CSE园区网实验文档</span></li>
+                        
+                          <li><a title="1、Hybrid 实验" href="15971110203636.html">1、Hybrid 实验</a></li>
+                        
+                          <li><a title="2、MVRP 实验" href="15971109912856.html">2、MVRP 实验</a></li>
+                        
+                          <li><a title="3、VLAN 排错实验" href="15971109355344.html">3、VLAN 排错实验</a></li>
+                        
+                          <li><a title="4、Private VLAN 实验" href="15971109132408.html">4、Private VLAN 实验</a></li>
+                        
+                          <li><a title="5、VLAN 路由实验" href="15971108858041.html">5、VLAN 路由实验</a></li>
+                        
+                          <li><a title="6、VLAN 路由排错实验" href="15971108614501.html">6、VLAN 路由排错实验</a></li>
+                        
+                          <li><a title="7、MSTP 实验" href="15971105649357.html">7、MSTP 实验</a></li>
+                        
+                          <li><a title="8、MSTP 排错实验" href="15971105124728.html">8、MSTP 排错实验</a></li>
+                        
+                          <li><a title="9、链路聚合实验" href="15971104734005.html">9、链路聚合实验</a></li>
+                        
+                          <li><a title="10、链路聚合排错实验" href="15971104158088.html">10、链路聚合排错实验</a></li>
+                        
+                          <li><a title="11、Smart-link 实验" href="15971103649842.html">11、Smart-link 实验</a></li>
+                        
+                          <li><a title="12、Smart-link 排错实验" href="15971103146679.html">12、Smart-link 排错实验</a></li>
+                        
+                          <li><a title="13、RRPP 实验" href="15971102832052.html">13、RRPP 实验</a></li>
+                        
+                          <li><a title="14、VRRP 实验" href="15971102423883.html">14、VRRP 实验</a></li>
+                        
+                          <li><a title="15、VRRP 排错实验" href="15971102171802.html">15、VRRP 排错实验</a></li>
+                        
+                          <li><a title="16、IRF 实验" href="15971101812457.html">16、IRF 实验</a></li>
+                        
+                          <li><a title="17、组播实验" href="15971101481278.html">17、组播实验</a></li>
+                        
+                          <li><a title="18、SSH 实验" href="15971100969733.html">18、SSH 实验</a></li>
+                        
+                          <li><a title="19、园区网综合实验" href="15971100463968.html">19、园区网综合实验</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>H3CSE广域网实验文档</span></li>
+                        
+                          <li><a title="1、PPPOE 实验" href="15971121324515.html">1、PPPOE 实验</a></li>
+                        
+                          <li><a title="2、GRE VPN 实验" href="15971121061496.html">2、GRE VPN 实验</a></li>
+                        
+                          <li><a title="3、IPsec VPN 实验" href="15971120719703.html">3、IPsec VPN 实验</a></li>
+                        
+                          <li><a title="4、GRE over IPsec VPN 实验" href="15971120240205.html">4、GRE over IPsec VPN 实验</a></li>
+                        
+                          <li><a title="5、IPsec over GRE VPN 实验" href="15971119919682.html">5、IPsec over GRE VPN 实验</a></li>
+                        
+                          <li><a title="6、VPN 排错实验" href="15971119688175.html">6、VPN 排错实验</a></li>
+                        
+                          <li><a title="7、BGP MPLS VPN 实验" href="15971119427679.html">7、BGP MPLS VPN 实验</a></li>
+                        
+                          <li><a title="8、QOS 实验" href="15971119141090.html">8、QOS 实验</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>实战演练</span></li>
+                        
+                          <li><a title="Windows隐藏后门账户" href="15778921528695.html">Windows隐藏后门账户</a></li>
+                        
+                          <li><a title="“ARP流量攻击”实战演练" href="15835047952231.html">“ARP流量攻击”实战演练</a></li>
+                        
+                          <li><a title="“Hydra”密码爆破实战演练" href="15898727114797.html">“Hydra”密码爆破实战演练</a></li>
+                        
+                          <li><a title="利用Excel 4.0宏执行任意命令" href="15835903130455.html">利用Excel 4.0宏执行任意命令</a></li>
+                        
+                          <li><a title="“永恒之蓝”勒索病毒实战演练" href="15777610682083.html">“永恒之蓝”勒索病毒实战演练</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>无线安全技术</span></li>
+                        
+                          <li><a title="无线网络基础" href="15935697571945.html">无线网络基础</a></li>
+                        
+                          <li><a title="无线网络加密方式及破解" href="15935697703464.html">无线网络加密方式及破解</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>安全运维技术</span></li>
+                        
+                          <li><a title="防火墙基础" href="15936542531605.html">防火墙基础</a></li>
+                        
+                          <li><a title="防火墙技术原理" href="15936563369156.html">防火墙技术原理</a></li>
+                        
+                          <li><a title="防火墙攻击防范" href="15936559778238.html">防火墙攻击防范</a></li>
+                        
+                          <li><a title="防火墙技术最高境界-双机热备" href="15947775776668.html">防火墙技术最高境界-双机热备</a></li>
+                        
+                          <li><a title="1、防火墙web和telnet登陆实验" href="15950399042906.html">1、防火墙web和telnet登陆实验</a></li>
+                        
+                          <li><a title="2、防火墙Access模式组网实验" href="15950412494728.html">2、防火墙Access模式组网实验</a></li>
+                        
+                          <li><a title="3、防火墙Trunk模式组网实验" href="15950435615923.html">3、防火墙Trunk模式组网实验</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>网络攻击与防御技术</span></li>
+                        
+                          <li><a title="第一章 网络攻防技术概述" href="15783601644636.html">第一章 网络攻防技术概述</a></li>
+                        
+                          <li><a title="1.1 黑客、红客及红黑对抗" href="15783627614457.html">1.1 黑客、红客及红黑对抗</a></li>
+                        
+                          <li><a title="1.2 网络攻击的类型" href="15783628997471.html">1.2 网络攻击的类型</a></li>
+                        
+                          <li><a title="1.3 网络攻击的属性" href="15783629572359.html">1.3 网络攻击的属性</a></li>
+                        
+                          <li><a title="1.4 主要攻击方法" href="15783630560456.html">1.4 主要攻击方法</a></li>
+                        
+                          <li><a title="1.5 网络攻击的实施过程" href="15783630973387.html">1.5 网络攻击的实施过程</a></li>
+                        
+                          <li><a title="1.6 网络攻防的发展趋势" href="15783631374798.html">1.6 网络攻防的发展趋势</a></li>
+                        
+                          <li><a title="第二章 Windows操作系统的攻防" href="15867901202731.html">第二章 Windows操作系统的攻防</a></li>
+                        
+                          <li><a title="2.1 Windows操作系统的安全机制" href="15867923181295.html">2.1 Windows操作系统的安全机制</a></li>
+                        
+                          <li><a title="2.2 针对Windows数据的攻防" href="15883437290975.html">2.2 针对Windows数据的攻防</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+
+
+ 
+
+
+	
+		<div class="markdown-body">
+		<h1>Web 渗透概述</h1>
+
+		<blockquote>
+<p>Web 已经在企业信息化、电子商务、电子政务中等得到广泛的应用，Web 的迅速发展同时，也带来了众多的安全威胁。<br/>
+网络攻击重心已转向应用层， Web 已成为黑客首选攻击目标， 针对 Web 的攻击和破坏不断增长，据高盛统计数据表明，75% 的攻击是针对 Web 应用的。<br/>
+然而，对于 Web 应用安全领域，很多企业还没有充分的认识、没有做好准备；许多开发人员也没有相应的经验，这给了黑客可乘之机。</p>
+</blockquote>
+
+<h4 id="toc_0">1.1 Web 安全风险与趋势</h4>
+
+<ul>
+<li><p>最新发布的白帽 Web 安全统计报告显示，接受抽样调查网站达 3 万余个，负责撰写报告的首席研究员 Gabriel Gumbs 指出：没有哪一种开发语言或平台有着明显的安全性优势，从漏洞数量来看，大量网站使用的不同的开发语言之间并没有太大的差异，几个主要开发平台的漏洞数量基本处于同一个数量级。<br/>
+<center><img src="media/15970276640033/1-1.png" alt="1-1"/><br/>
+</center></p></li>
+<li><p>2018 年夏季互联网发展状况安全报告关于 Web 攻击的报告指出，Web 攻击平均每天发生次数在 10 兆次左右，最高可到达 16 兆次以上；同时使用最广泛的攻击方式仍然集中在 SQL 注入、XSS、文件包含；在该报告覆盖的时间范围内，俄罗斯、中国和印度尼西亚是对旅游行业进行撞库攻击的主要来源国，其中半数的撞库活动都指向酒店、游轮公司、航空公司和旅游网站。中国和俄罗斯针对酒店行业和旅游行业的攻击流量加起来是来自美国的攻击流量的三倍。<br/>
+<center><img src="media/15970276640033/1-2.png" alt="1-2"/><br/>
+</center><br/>
+<center><img src="media/15970276640033/1-3.png" alt="1-3"/><br/>
+</center><br/>
+<center><img src="media/15970276640033/1-4.png" alt="1-4"/></p></li>
+</ul>
+</center>
+<ul>
+<li>通过入侵 Web 站点而产生的信息泄露事件越来越多。在网络大互联的今天，所有人都有各种私人敏感信息存留在网络中，而其中最多的又是用户自行在网站上注册并记录的，这也就给了黑客一个非常大的驱动力，窃取用户数据贩卖至黑产，使用户信息流向电话推销、电信诈骗等渠道
+<center><img src="media/15970276640033/1-5.png" alt="1-5"/>
+</center></li>
+</ul>
+
+<h4 id="toc_1">1.2 Web 攻击的常见目的</h4>
+
+<ul>
+<li>恶作剧；</li>
+<li>关闭 Web 站点，拒绝正常服务；</li>
+<li>篡改 Web 网页，损害企业名誉；</li>
+<li>免费浏览收费内容；</li>
+<li>盗窃用户隐私信息，例如 Email；</li>
+<li>以用户身份登录执行非法操作，从而获取暴利；</li>
+<li>以此为跳板攻击企业内网其他系统；</li>
+<li>网页挂木马，攻击访问网页的特定用户群；</li>
+<li>仿冒系统发布方，诱骗用户执行危险操作，例如用木马替换正常下载文件，要求用户汇款等；</li>
+</ul>
+
+<h4 id="toc_2">1.3 Web 安全术语</h4>
+
+<ul>
+<li>后门
+<ul>
+<li>绕过安全控制而获取对程序或系统访问权的方法。后门的最主要目的就是方便以后再次秘密进入或者控制系统。</li>
+</ul></li>
+<li>Webshell
+<ul>
+<li>Webshell 就是以 asp、php、jsp 或者 cgi 等网页文件形式存在的一种命令执行环境，也可以将其称作为一种网页后门。</li>
+</ul></li>
+<li>0day漏洞
+<ul>
+<li>通常是指还没有补丁的漏洞。也就是说官方还没有发现或者是发现了还没有开发出安全补丁的漏洞</li>
+</ul></li>
+<li>Exploit
+<ul>
+<li>简称 exp，漏洞利用</li>
+</ul></li>
+<li>提权
+<ul>
+<li>提高自己在服务器中的权限，主要针对网站入侵过程中，当入侵某一网站时，通过各种漏洞提升 Webshell 权限以夺得该服务器权限。</li>
+</ul></li>
+<li>跳板
+<ul>
+<li>跳板，简单来说，就是在进行攻击或渗透时，不直接发起，而是控制一台中间主机来进行。这台中间主机就成为跳板。</li>
+</ul></li>
+<li>拖库
+<ul>
+<li>网站遭到入侵后，黑客窃取其数据库。</li>
+</ul></li>
+<li>社会工程学
+<ul>
+<li>一种通过对受害者心理弱点、本能反应、好奇心、信任、贪婪等心理陷阱进行诸如欺骗、伤害等危害手段取得自身利益的手法，已成迅速上升甚至滥用的趋势。</li>
+</ul></li>
+<li>Apt 攻击
+<ul>
+<li>高级持续性威胁。 利用先进的攻击手段对特定目标进行长期持续性网络攻击的攻击形式</li>
+</ul></li>
+</ul>
+
+<h4 id="toc_3">1.4 Web 常见攻击手段（OWASP TOP 10）</h4>
+
+<blockquote>
+<p>针对 Web 服务的攻击手段五花八门，形形色色。为了帮助IT公司和开发团队规范应用程序开发流程和测试流程，提高Web产品的安全性，OWASP 组织每年都会发布 OWASP TOP 10 年度报告，该报告总结了 Web 应用程序最可能、最常见、最危险的十大漏洞<br/>
+OWASP：开放式 Web 应用程序安全项目，是一个非营利组织，不附属于任何企业或财团。因此，由 OWASP 提供和开发的所有设施和文件都不受商业因素的影响。OWASP 支持商业安全技术的合理使用，它有一个论坛，在论坛里信息技术专业人员可以发表和传授专业知识和技能。<br/>
+<center><img src="media/15970276640033/1-6.png" alt="1-6"/><br/>
+</center></p>
+</blockquote>
+
+<h4 id="toc_4">1.5 OWASP TOP 10 2017</h4>
+
+<ul>
+<li>A1 - Injection（注入漏洞）
+<ul>
+<li>当不可信的数据作为命令或查询语句的一部分被发送给解释器的时候，会发生注入漏洞，包括 SQL、NoSQL、OS 以及 LDAP 注入等。</li>
+<li>攻击者发送的恶意数据可能会诱使解释器执行计划外的命令，或在没有适当授权的情况下访问数据。</li>
+</ul></li>
+<li>A2 - BrokenAuthentication（中断身份认证）
+<ul>
+<li>与认证和会话管理相关的应用函数经常被错误地实现，从而允许攻击者破坏密码、密钥或是会话令牌</li>
+<li>或者利用其他的应用漏洞来暂时或永久地获取用户身份信息。</li>
+</ul></li>
+<li>A3 - Sensitive DataExposure（敏感数据泄露）
+<ul>
+<li>许多 Web 应用程序和 API 不能正确的保护敏感数据，如金融、医疗保健和 PII（个人身份信息）等。攻击者可能会窃取或篡改这些弱保护的数据，从而进行信用卡欺诈、身份盗窃或其他犯罪行为。</li>
+<li>在缺少额外保护（例如，在存放和传输过程中加密，且在与浏览器进行交换时需要特别谨慎）的情况下，敏感数据可能会受到损害。</li>
+</ul></li>
+<li>A4 - XML ExternalEntities（XXE）XML 外部处理器漏洞
+<ul>
+<li>许多过时的或配置不当的XML处理器在XML文档内进行外部实体引用。</li>
+<li>外部实体可用于泄露内部文件，通过使用文件URI处理器、内部文件共享、内部端口扫描、远程代码执行以及拒绝服务攻击等手段。</li>
+</ul></li>
+<li>A5 - Broken AccessControl（中断访问控制）
+<ul>
+<li>限制“认证的用户可以实现哪些操作”的命令没有得到正确的执行。</li>
+<li>攻击者可以利用这些漏洞访问未经授权的功能和数据，例如访问其他用户的账户，查看敏感文件，篡改其他用户的数据，更改访问权限等。</li>
+</ul></li>
+<li>A6 - SecurityMisconfiguration（安全配置错误）
+<ul>
+<li>安全配置错误是最常见的问题。</li>
+<li>这通常是由不安全的默认配置，不完整或 ad hoc 配置，开放云存储，错误配置的 HTTP 标头，以及包含敏感信息的详细错误信息造成的。</li>
+<li>所有的操作系统、框架、库、应用程序都需要进行安全配置外，还必须要及时进行系统更新和升级。</li>
+</ul></li>
+<li>A7 - Cross-SiteScripting（XSS）跨站脚本攻击
+<ul>
+<li>如果应用程序在未经适当验证或转义的情况下，能够在新网页中包含不受信任的数据，或是使用可以创建 HTML 或者 JavaScript 的浏览器 API 更新包含用户提供的数据的现有网页，就会出现 XSS 漏洞。</li>
+<li>XSS 允许攻击者在受害者的浏览器中执行脚本，这些脚本可以劫持用户会话、破坏网站或将用户重定向到恶意网站中。</li>
+</ul></li>
+<li>A8 - InsecureDeserialization（不安全的反序列化）
+<ul>
+<li>不安全的反序列化漏洞通常会导致远程代码执行问题。</li>
+<li>即使反序列化错误不会导致远程代码执行，也可以被用来执行攻击，包括重放攻击、注入攻击以及权限提升攻击等。</li>
+</ul></li>
+<li>A9 - UsingComponents with Known Vulnerabilities（使用含有已知漏洞的组件）
+<ul>
+<li>组件（如库、框架和其他软件模块）是以与应用程序相同的权限运行的。如果存在漏洞的组件被利用，这种攻击可能会导致严重的数据丢失或服务器接管危机。</li>
+<li>使用已知漏洞组件的应用程序和API可能会破坏应用程序的防御系统，从而启动各种形式的攻击，造成更为严重的影响。</li>
+</ul></li>
+<li>A10 - InsufficientLogging &amp; Monitoring（不足的记录和监控漏洞）
+<ul>
+<li>不足的记录和监控漏洞，再加上事件响应能力欠缺以及缺少有效的整合，使得攻击者可以进一步攻击系统，维持其持久性，转而攻击更多的系统，并篡改、提取或销毁数据。</li>
+<li>大部分的数据泄露研究显示，检测出发生数据泄漏的时间通常需要超过 200 天，而且通常是外部机构率先发现数据泄漏的事实，而不是通过内部发现的。</li>
+</ul></li>
+</ul>
+
+
+		</div>
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+  
+  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2021
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+<p class="copyright"><a href="http://beian.miit.gov.cn/" target="_blank">鄂ICP备20001132号-1</a>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+
+
+
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4c2e22be9e3cf5819e053d15a6480e4b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>
